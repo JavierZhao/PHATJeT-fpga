@@ -1,0 +1,369 @@
+== runs/abl-bn-tanh/train.log
+223/223 - 12s - 52ms/step - accuracy: 0.2017 - loss: 1.7170 - val_accuracy: 0.2009 - val_loss: 1.6019 - ebops: 3822047.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/abl-bn/train.log
+223/223 - 13s - 58ms/step - accuracy: 0.2010 - loss: 5.5143 - val_accuracy: 0.2016 - val_loss: 1.6010 - ebops: 3756563.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/abl-neither/train.log
+223/223 - 13s - 58ms/step - accuracy: 0.7758 - loss: 0.7126 - val_accuracy: 0.7840 - val_loss: 0.6146 - ebops: 2307879.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/abl-none/train.log
+223/223 - 5s - 21ms/step - accuracy: 0.4695 - loss: 1.2117 - val_accuracy: 0.4833 - val_loss: 1.1763 - ebops: 2103071.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/abl-tanh/train.log
+223/223 - 12s - 53ms/step - accuracy: 0.7852 - loss: 0.6594 - val_accuracy: 0.7895 - val_loss: 0.5943 - ebops: 1674390.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/attn2/train.log
+== runs/attn3/train.log
+223/223 - 14s - 61ms/step - accuracy: 0.2022 - loss: 1.6302 - val_accuracy: 0.2023 - val_loss: 1.6076 - ebops: 3901850.0000 - learning_rate: 9.3969e-05 - beta: 5.7868e-09
+== runs/attnl1-1e4/train.log
+223/223 - 8s - 37ms/step - accuracy: 0.5783 - loss: -3.4245e+01 - val_accuracy: 0.5867 - val_loss: -3.4304e+01 - ebops: 568776.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/attnl1-3e5/train.log
+223/223 - 5s - 24ms/step - accuracy: 0.7039 - loss: -9.4828e+00 - val_accuracy: 0.7259 - val_loss: -9.6713e+00 - ebops: 783357.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/attnl1-hi/train.log
+223/223 - 7s - 31ms/step - accuracy: 0.7589 - loss: -2.6115e+00 - val_accuracy: 0.7720 - val_loss: -2.6863e+00 - ebops: 925778.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/attnl1-mid/train.log
+223/223 - 5s - 22ms/step - accuracy: 0.7922 - loss: 0.3842 - val_accuracy: 0.7855 - val_loss: 0.3636 - ebops: 1285968.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/best-b01/train.log
+223/223 - 26s - 118ms/step - accuracy: 0.7354 - loss: 0.8561 - val_accuracy: 0.6188 - val_loss: 1.0279 - ebops: 386085.0000 - learning_rate: 0.0030 - beta: 2.9904e-07
+== runs/best-d8/train.log
+223/223 - 4s - 16ms/step - accuracy: 0.7630 - loss: 0.7128 - val_accuracy: 0.7813 - val_loss: 0.6292 - ebops: 1349189.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/best-n64/train.log
+223/223 - 4s - 17ms/step - accuracy: 0.8010 - loss: 0.6018 - val_accuracy: 0.8013 - val_loss: 0.5660 - ebops: 1208546.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/best/train.log
+223/223 - 26s - 116ms/step - accuracy: 0.7723 - loss: 0.6668 - val_accuracy: 0.7703 - val_loss: 0.6548 - ebops: 5049688.0000 - learning_rate: 0.0027 - beta: 2.4302e-09
+== runs/bw4/train.log
+== runs/combo-b01/train.log
+== runs/combo-d8/train.log
+223/223 - 7s - 33ms/step - accuracy: 0.5839 - loss: 1.0712 - val_accuracy: 0.5476 - val_loss: 1.0473 - ebops: 1366947.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/combo/train.log
+223/223 - 11s - 47ms/step - accuracy: 0.8070 - loss: 0.5773 - val_accuracy: 0.3184 - val_loss: 3.3005 - ebops: 2682583.0000 - learning_rate: 0.0018 - beta: 1.0365e-08
+== runs/d8/train.log
+223/223 - 10s - 44ms/step - accuracy: 0.7949 - loss: 0.6049 - val_accuracy: 0.7232 - val_loss: 0.7809 - ebops: 3526697.0000 - learning_rate: 0.0015 - beta: 4.2070e-09
+== runs/dev90/train.log
+223/223 - 4s - 16ms/step - accuracy: 0.7824 - loss: -4.9301e+00 - val_accuracy: 0.7801 - val_loss: -4.9180e+00 - ebops: 830780.0000 - learning_rate: 0.0030 - beta: 5.6684e-09
+== runs/dev90cap/train.log
+223/223 - 6s - 25ms/step - accuracy: 0.6651 - loss: -9.2484e+00 - val_accuracy: 0.6652 - val_loss: -9.2622e+00 - ebops: 1071959.0000 - learning_rate: 0.0030 - beta: 9.4750e-09
+== runs/ffn1/train.log
+223/223 - 5s - 23ms/step - accuracy: 0.2014 - loss: 9.0710 - val_accuracy: 0.2023 - val_loss: 1.6053 - ebops: 2737134.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/fit-a/train.log
+223/223 - 8s - 37ms/step - accuracy: 0.7619 - loss: 0.4817 - val_accuracy: 0.7720 - val_loss: 0.3856 - ebops: 797061.0000 - learning_rate: 0.0030 - beta: 8.9711e-08
+== runs/fit-b/train.log
+223/223 - 10s - 45ms/step - accuracy: 0.7922 - loss: -2.6551e-01 - val_accuracy: 0.7919 - val_loss: -3.0172e-01 - ebops: 1175383.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/fit-n64-hi/train.log
+223/223 - 3s - 14ms/step - accuracy: 0.7961 - loss: -5.3609e-01 - val_accuracy: 0.7872 - val_loss: -5.3884e-01 - ebops: 683178.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/fit-n64/train.log
+223/223 - 3s - 14ms/step - accuracy: 0.7774 - loss: 0.6336 - val_accuracy: 0.7833 - val_loss: 0.5888 - ebops: 1056287.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/float-ref/train.log
+BEST FLOAT val_accuracy: 0.8088   (paper float PHAT-JeT: 0.8180)
+== runs/g-bw10/train.log
+223/223 - 141s - 632ms/step - accuracy: 0.5446 - loss: 1.1045 - val_accuracy: 0.6376 - val_loss: 0.9353 - ebops: 90998893.0000 - learning_rate: 0.0030 - beta: 0.0000e+00
+== runs/g-cap/train.log
+223/223 - 135s - 605ms/step - accuracy: 0.7834 - loss: 1.1148 - val_accuracy: 0.8048 - val_loss: 0.5820 - ebops: 473478719.0000 - learning_rate: 0.0030 - beta: 1.0000e-09
+== runs/g-cont/train.log
+== runs/g-d32/train.log
+223/223 - 176s - 791ms/step - accuracy: 0.7910 - loss: 0.5807 - val_accuracy: 0.7884 - val_loss: 0.5859 - ebops: 1199475.0000 - learning_rate: 9.1728e-04 - beta: 9.9131e-10
+== runs/g-f16/train.log
+223/223 - 15s - 68ms/step - accuracy: 0.8147 - loss: 0.5357 - val_accuracy: 0.8132 - val_loss: 0.5402 - learning_rate: 2.6155e-04
+== runs/g-f16q/train.log
+223/223 - 195s - 874ms/step - accuracy: 0.8018 - loss: 0.5915 - val_accuracy: 0.8037 - val_loss: 0.5752 - ebops: 12241324.0000 - learning_rate: 0.0014 - beta: 1.0421e-09
+== runs/g-f16qc/train.log
+223/223 - 91s - 409ms/step - accuracy: 0.7064 - loss: 31.9006 - val_accuracy: 0.7230 - val_loss: 0.7634 - ebops: 2482944.0000 - learning_rate: 2.5219e-04 - beta: 1.2213e-05
+== runs/g-ffn4/train.log
+223/223 - 128s - 573ms/step - accuracy: 0.6811 - loss: 0.8542 - val_accuracy: 0.6967 - val_loss: 0.8274 - ebops: 47494005.0000 - learning_rate: 0.0030 - beta: 0.0000e+00
+== runs/g-free/train.log
+== runs/g-grow/train.log
+223/223 - 89s - 400ms/step - accuracy: 0.8085 - loss: 0.6097 - val_accuracy: 0.8083 - val_loss: 0.6103 - ebops: 1536067.0000 - learning_rate: 7.5750e-05 - beta: 9.9820e-10
+== runs/g-grow2/train.log
+223/223 - 91s - 409ms/step - accuracy: 0.8090 - loss: 0.5518 - val_accuracy: 0.8091 - val_loss: 0.5516 - ebops: 1517569.0000 - learning_rate: 2.0512e-04 - beta: 9.9911e-10
+== runs/g-lowlr/train.log
+223/223 - 136s - 608ms/step - accuracy: 0.8086 - loss: 0.5424 - val_accuracy: 0.8017 - val_loss: 0.5600 - ebops: 1542033.0000 - learning_rate: 1.8377e-04 - beta: 9.8696e-10
+== runs/g-ls-s2/train.log
+223/223 - 115s - 515ms/step - accuracy: 0.8092 - loss: 0.5985 - val_accuracy: 0.8081 - val_loss: 0.6022 - ebops: 1507908.0000 - learning_rate: 2.1029e-05 - beta: 9.9856e-10
+== runs/g-ls-s3/train.log
+223/223 - 64s - 288ms/step - accuracy: 0.8096 - loss: 0.5969 - val_accuracy: 0.8099 - val_loss: 0.5960 - ebops: 1552123.0000 - learning_rate: 2.5219e-04 - beta: 9.4707e-10
+== runs/g-ls-s4/train.log
+223/223 - 201s - 900ms/step - accuracy: 0.8085 - loss: 0.6006 - val_accuracy: 0.8084 - val_loss: 0.6021 - ebops: 1540502.0000 - learning_rate: 1.8377e-04 - beta: 9.9934e-10
+== runs/g-ls/train.log
+223/223 - 97s - 433ms/step - accuracy: 0.8089 - loss: 0.5987 - val_accuracy: 0.8082 - val_loss: 0.6007 - ebops: 1542703.0000 - learning_rate: 1.8377e-04 - beta: 9.8573e-10
+== runs/g-nopress/train.log
+223/223 - 118s - 528ms/step - accuracy: 0.8091 - loss: 0.5483 - val_accuracy: 0.8090 - val_loss: 0.5522 - ebops: 1784110.0000 - learning_rate: 2.5219e-04 - beta: 0.0000e+00
+== runs/g-pid/train.log
+223/223 - 204s - 914ms/step - accuracy: 0.8064 - loss: 0.5487 - val_accuracy: 0.8061 - val_loss: 0.5503 - ebops: 1559190.0000 - learning_rate: 9.1728e-04 - beta: 9.9458e-10
+== runs/g-pid2/train.log
+223/223 - 118s - 527ms/step - accuracy: 0.8007 - loss: 0.5657 - val_accuracy: 0.8008 - val_loss: 0.5657 - ebops: 1534715.0000 - learning_rate: 0.0014 - beta: 1.0000e-09
+== runs/g-x1/train.log
+223/223 - 89s - 399ms/step - accuracy: 0.8111 - loss: 0.5923 - val_accuracy: 0.8106 - val_loss: 0.5947 - ebops: 1544958.0000 - learning_rate: 1.0346e-06 - beta: 8.8748e-10
+== runs/g-x3/train.log
+223/223 - 114s - 511ms/step - accuracy: 0.8104 - loss: 0.5944 - val_accuracy: 0.8101 - val_loss: 0.5969 - ebops: 1535355.0000 - learning_rate: 8.5091e-06 - beta: 9.8153e-10
+== runs/g-x4/train.log
+223/223 - 64s - 285ms/step - accuracy: 0.8026 - loss: 0.5556 - val_accuracy: 0.7988 - val_loss: 0.5708 - ebops: 1509077.0000 - learning_rate: 1.0346e-06 - beta: 8.7971e-10
+== runs/h1/train.log
+223/223 - 8s - 35ms/step - accuracy: 0.7946 - loss: 0.6113 - val_accuracy: 0.7859 - val_loss: 0.6149 - ebops: 4405824.0000 - learning_rate: 0.0030 - beta: 4.7394e-09
+== runs/n128-best/train.log
+223/223 - 6s - 26ms/step - accuracy: 0.7903 - loss: -4.9229e+00 - val_accuracy: 0.7917 - val_loss: -4.9462e+00 - ebops: 720038.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-budget500/train.log
+== runs/n128-core7-sat/train.log
+223/223 - 7s - 32ms/step - accuracy: 0.7813 - loss: -4.4370e+00 - val_accuracy: 0.7710 - val_loss: -4.4336e+00 - ebops: 628879.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-core7/train.log
+223/223 - 6s - 25ms/step - accuracy: 0.7551 - loss: -4.8619e+00 - val_accuracy: 0.7112 - val_loss: -4.7839e+00 - ebops: 631124.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-d32/train.log
+223/223 - 26s - 118ms/step - accuracy: 0.7799 - loss: -9.4281e+00 - val_accuracy: 0.7842 - val_loss: -9.4673e+00 - ebops: 913504.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-d32wv/train.log
+223/223 - 27s - 122ms/step - accuracy: 0.7696 - loss: -9.3426e+00 - val_accuracy: 0.7853 - val_loss: -9.4127e+00 - ebops: 1034701.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-fullin/train.log
+223/223 - 5s - 24ms/step - accuracy: 0.7871 - loss: -2.3009e+00 - val_accuracy: 0.7877 - val_loss: -2.3211e+00 - ebops: 608138.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-fullinrich/train.log
+223/223 - 3s - 12ms/step - accuracy: 0.6823 - loss: -1.4830e+00 - val_accuracy: 0.6732 - val_loss: -1.5373e+00 - ebops: 1393256.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-gmp2/train.log
+223/223 - 11s - 50ms/step - accuracy: 0.7893 - loss: -4.8698e+00 - val_accuracy: 0.7927 - val_loss: -4.9025e+00 - ebops: 738707.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-h1p/train.log
+223/223 - 4s - 16ms/step - accuracy: 0.7733 - loss: -3.8736e+00 - val_accuracy: 0.7661 - val_loss: -3.8793e+00 - ebops: 656041.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-jedi/train.log
+223/223 - 16s - 73ms/step - accuracy: 0.7036 - loss: 0.8919 - val_accuracy: 0.3801 - val_loss: 1.8418 - ebops: 31227.0000 - learning_rate: 0.0030 - beta: 2.9904e-06
+== runs/n128-jedi7k/train.log
+223/223 - 3s - 15ms/step - accuracy: 0.7609 - loss: nan - val_accuracy: 0.2016 - val_loss: nan - ebops: 24283.0000 - learning_rate: 0.0027 - beta: 7.8835e-07
+== runs/n128-jediaz/train.log
+223/223 - 7s - 32ms/step - accuracy: 0.7233 - loss: 0.8384 - val_accuracy: 0.3703 - val_loss: 1.6333 - ebops: 30201.0000 - learning_rate: 0.0030 - beta: 2.9904e-06
+== runs/n128-jedigmp/train.log
+223/223 - 12s - 52ms/step - accuracy: 0.6218 - loss: 1.0009 - val_accuracy: 0.5376 - val_loss: 1.1003 - ebops: 17288.0000 - learning_rate: 0.0030 - beta: 2.9904e-06
+== runs/n128-jedigmps2/train.log
+223/223 - 22s - 98ms/step - accuracy: 0.6328 - loss: 0.9747 - val_accuracy: 0.6206 - val_loss: 0.9330 - ebops: 19014.0000 - learning_rate: 0.0030 - beta: 2.9904e-06
+== runs/n128-jedis2/train.log
+223/223 - 16s - 70ms/step - accuracy: 0.3679 - loss: 1.3940 - val_accuracy: 0.2450 - val_loss: 1.6452 - ebops: 4943.0000 - learning_rate: 0.0030 - beta: 2.9904e-06
+== runs/n128-jediz/train.log
+223/223 - 35s - 157ms/step - accuracy: 0.7566 - loss: 0.8006 - val_accuracy: 0.4859 - val_loss: 1.6332 - ebops: 40239.0000 - learning_rate: 0.0030 - beta: 2.9904e-06
+== runs/n128-linf/train.log
+223/223 - 184s - 827ms/step - accuracy: 0.7699 - loss: -6.1834e-01 - val_accuracy: 0.7673 - val_loss: -6.3964e-01 - ebops: 6997054.0000 - learning_rate: 0.0016 - beta: 5.3404e-10
+== runs/n128-nogmp/train.log
+223/223 - 38s - 172ms/step - accuracy: 0.7899 - loss: -4.8078e+00 - val_accuracy: 0.7912 - val_loss: -4.8328e+00 - ebops: 801717.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-phatlin/train.log
+223/223 - 7s - 30ms/step - accuracy: 0.7890 - loss: -4.5525e+00 - val_accuracy: 0.7870 - val_loss: -4.5672e+00 - ebops: 692481.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-phatrich/train.log
+223/223 - 21s - 95ms/step - accuracy: 0.7863 - loss: -4.7520e+00 - val_accuracy: 0.7657 - val_loss: -4.7274e+00 - ebops: 807776.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-phatrichc/train.log
+223/223 - 7s - 32ms/step - accuracy: 0.7693 - loss: -4.7659e+00 - val_accuracy: 0.7719 - val_loss: -4.7945e+00 - ebops: 612190.0000 - learning_rate: 0.0030 - beta: 3.4045e-08
+== runs/n128-pid/train.log
+223/223 - 4s - 18ms/step - accuracy: 0.7843 - loss: -4.9978e+00 - val_accuracy: 0.7862 - val_loss: -5.0169e+00 - ebops: 513534.0000 - learning_rate: 0.0030 - beta: 3.3234e-08
+== runs/n128-pn64/train.log
+223/223 - 21s - 92ms/step - accuracy: 0.7812 - loss: -4.7196e+00 - val_accuracy: 0.7797 - val_loss: -4.7409e+00 - ebops: 807995.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-pnz/train.log
+223/223 - 6s - 28ms/step - accuracy: 0.6714 - loss: -3.3775e+00 - val_accuracy: 0.6710 - val_loss: -3.4334e+00 - ebops: 1864703.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-ramp-ctl/train.log
+223/223 - 21s - 94ms/step - accuracy: 0.4400 - loss: -4.4834e+00 - val_accuracy: 0.4362 - val_loss: -4.4949e+00 - ebops: 5119.0000 - learning_rate: 0.0030 - beta: 2.9904e-06
+== runs/n128-ramp-prot/train.log
+== runs/n128-ramp-protb/train.log
+223/223 - 8s - 38ms/step - accuracy: 0.4685 - loss: -4.3278e+00 - val_accuracy: 0.2495 - val_loss: -4.1066e+00 - ebops: 68523.0000 - learning_rate: 0.0030
+== runs/n128-relu/train.log
+223/223 - 20s - 91ms/step - accuracy: 0.7880 - loss: -6.2844e+00 - val_accuracy: 0.7913 - val_loss: -6.3042e+00 - ebops: 337771.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-richlin/train.log
+223/223 - 8s - 35ms/step - accuracy: 0.7884 - loss: -4.4162e+00 - val_accuracy: 0.7903 - val_loss: -4.4438e+00 - ebops: 752990.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-sat-notanh/train.log
+223/223 - 11s - 48ms/step - accuracy: 0.7934 - loss: -4.2919e+00 - val_accuracy: 0.7951 - val_loss: -4.3190e+00 - ebops: 683625.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-sat/train.log
+== runs/n128-satb/train.log
+223/223 - 8s - 36ms/step - accuracy: 0.7605 - loss: -3.7301e+00 - val_accuracy: 0.7486 - val_loss: -3.7659e+00 - ebops: 2042876.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-seed2/train.log
+223/223 - 8s - 37ms/step - accuracy: 0.7943 - loss: -4.9307e+00 - val_accuracy: 0.7988 - val_loss: -4.9604e+00 - ebops: 667750.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-seed2c/train.log
+223/223 - 6s - 28ms/step - accuracy: 0.7630 - loss: -4.9141e+00 - val_accuracy: 0.7590 - val_loss: -4.9168e+00 - ebops: 462389.0000 - learning_rate: 0.0030 - beta: 3.1067e-08
+== runs/n128-sig/train.log
+== runs/n128-tbl/train.log
+223/223 - 8s - 38ms/step - accuracy: 0.7932 - loss: -4.8829e+00 - val_accuracy: 0.7941 - val_loss: -4.9061e+00 - ebops: 673518.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128-wv10/train.log
+223/223 - 8s - 34ms/step - accuracy: 0.7684 - loss: -4.9854e+00 - val_accuracy: 0.7609 - val_loss: -4.9669e+00 - ebops: 434271.0000 - learning_rate: 0.0030 - beta: 3.3000e-08
+== runs/n128-wv3/train.log
+223/223 - 8s - 34ms/step - accuracy: 0.7827 - loss: -5.0256e+00 - val_accuracy: 0.7792 - val_loss: -5.0266e+00 - ebops: 443817.0000 - learning_rate: 0.0030 - beta: 3.3000e-08
+== runs/n128-wv30/train.log
+223/223 - 22s - 99ms/step - accuracy: 0.7790 - loss: -5.0122e+00 - val_accuracy: 0.7826 - val_loss: -5.0375e+00 - ebops: 414653.0000 - learning_rate: 0.0030 - beta: 3.3000e-08
+== runs/n128-wvpid/train.log
+223/223 - 8s - 38ms/step - accuracy: 0.7816 - loss: -5.0241e+00 - val_accuracy: 0.7783 - val_loss: -5.0273e+00 - ebops: 434202.0000 - learning_rate: 0.0030 - beta: 3.8872e-08
+== runs/n128-wvpid2/train.log
+223/223 - 8s - 35ms/step - accuracy: 0.7721 - loss: -4.9854e+00 - val_accuracy: 0.7870 - val_loss: -5.0506e+00 - ebops: 408308.0000 - learning_rate: 0.0030 - beta: 4.3732e-08
+== runs/n128-wvs2/train.log
+223/223 - 8s - 35ms/step - accuracy: 0.2015 - loss: -4.2389e+00 - val_accuracy: 0.2009 - val_loss: -4.2388e+00 - ebops: 39.0000 - learning_rate: 0.0030 - beta: 3.3000e-08
+== runs/n128a/train.log
+223/223 - 21s - 95ms/step - accuracy: 0.7805 - loss: -4.6202e+00 - val_accuracy: 0.7814 - val_loss: -4.6525e+00 - ebops: 891779.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128r-core7/train.log
+223/223 - 7s - 33ms/step - accuracy: 0.7869 - loss: -4.8163e+00 - val_accuracy: 0.7906 - val_loss: -4.8471e+00 - ebops: 692590.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n128r-uni/train.log
+223/223 - 9s - 40ms/step - accuracy: 0.7820 - loss: -4.8051e+00 - val_accuracy: 0.7804 - val_loss: -4.8246e+00 - ebops: 738987.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n150-all/train.log
+223/223 - 8s - 37ms/step - accuracy: 0.7783 - loss: -1.2969e+01 - val_accuracy: 0.7796 - val_loss: -1.2991e+01 - ebops: 498219.0000 - learning_rate: 0.0025 - beta: 4.0086e-08
+== runs/n150-both/train.log
+223/223 - 10s - 45ms/step - accuracy: 0.7905 - loss: -9.5129e+00 - val_accuracy: 0.7830 - val_loss: -9.5003e+00 - ebops: 760626.0000 - learning_rate: 7.2354e-05 - beta: 2.9214e-08
+== runs/n150-ffnl1/train.log
+223/223 - 10s - 45ms/step - accuracy: 0.7820 - loss: -1.0638e+01 - val_accuracy: 0.7634 - val_loss: -1.0595e+01 - ebops: 829059.0000 - learning_rate: 0.0019 - beta: 8.1938e-09
+== runs/n150-sat/train.log
+== runs/n16-b01/train.log
+223/223 - 3s - 12ms/step - accuracy: 0.6929 - loss: 0.8904 - val_accuracy: 0.6967 - val_loss: 0.8252 - ebops: 191509.0000 - learning_rate: 0.0030 - beta: 2.9904e-07
+== runs/n16-d12/train.log
+== runs/n16-ktc/train.log
+223/223 - 2s - 9ms/step - accuracy: 0.6668 - loss: 0.6060 - val_accuracy: 0.6618 - val_loss: 0.6020 - ebops: 259710.0000 - learning_rate: 0.0030 - beta: 3.9030e-08
+== runs/n16-mod/train.log
+223/223 - 5s - 22ms/step - accuracy: 0.6541 - loss: 0.7013 - val_accuracy: 0.6614 - val_loss: 0.6678 - ebops: 630601.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n16-modpt/train.log
+223/223 - 3s - 14ms/step - accuracy: 0.6870 - loss: 0.7227 - val_accuracy: 0.6845 - val_loss: 0.7127 - ebops: 555084.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n16-p4/train.log
+223/223 - 2s - 7ms/step - accuracy: 0.6959 - loss: 0.6121 - val_accuracy: 0.6920 - val_loss: 0.6043 - ebops: 637084.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n16-ptc/train.log
+223/223 - 4s - 18ms/step - accuracy: 0.6600 - loss: 0.7739 - val_accuracy: 0.6699 - val_loss: 0.7344 - ebops: 365881.0000 - learning_rate: 0.0030 - beta: 4.3868e-08
+== runs/n16/train.log
+223/223 - 4s - 17ms/step - accuracy: 0.7371 - loss: 0.7416 - val_accuracy: 0.7342 - val_loss: 0.7310 - ebops: 609955.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n32-best-b01/train.log
+223/223 - 3s - 15ms/step - accuracy: 0.7497 - loss: 0.7998 - val_accuracy: 0.7526 - val_loss: 0.7002 - ebops: 307848.0000 - learning_rate: 0.0030 - beta: 2.9904e-07
+== runs/n32-best/train.log
+223/223 - 2s - 9ms/step - accuracy: 0.7844 - loss: 0.6378 - val_accuracy: 0.7857 - val_loss: 0.6086 - ebops: 861714.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n32-d12/train.log
+223/223 - 2s - 9ms/step - accuracy: 0.5673 - loss: 0.5753 - val_accuracy: 0.5855 - val_loss: 0.5394 - ebops: 577094.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n32-mod/train.log
+223/223 - 2s - 11ms/step - accuracy: 0.5989 - loss: 0.2545 - val_accuracy: 0.5233 - val_loss: 0.3522 - ebops: 935959.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n32-modpt/train.log
+223/223 - 2s - 10ms/step - accuracy: 0.6154 - loss: 0.3533 - val_accuracy: 0.6172 - val_loss: 0.2998 - ebops: 859955.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n32-p4/train.log
+223/223 - 3s - 12ms/step - accuracy: 0.7662 - loss: -2.2510e-01 - val_accuracy: 0.7648 - val_loss: -2.3914e-01 - ebops: 545295.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n32-p4c/train.log
+223/223 - 3s - 12ms/step - accuracy: 0.6349 - loss: 0.0770 - val_accuracy: 0.6275 - val_loss: 0.0673 - ebops: 453942.0000 - learning_rate: 0.0030 - beta: 4.0138e-08
+== runs/n32/train.log
+223/223 - 2s - 10ms/step - accuracy: 0.7842 - loss: 0.6468 - val_accuracy: 0.4896 - val_loss: 1.9173 - ebops: 1171878.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-all/train.log
+223/223 - 5s - 22ms/step - accuracy: 0.7510 - loss: -1.8395e+00 - val_accuracy: 0.7456 - val_loss: -1.8955e+00 - ebops: 220683.0000 - learning_rate: 0.0030 - beta: 2.9904e-07
+== runs/n64-avl1/train.log
+223/223 - 4s - 18ms/step - accuracy: 0.7175 - loss: -1.4898e+00 - val_accuracy: 0.7302 - val_loss: -1.5289e+00 - ebops: 391173.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-blk/train.log
+223/223 - 4s - 19ms/step - accuracy: 0.7825 - loss: -1.9303e+00 - val_accuracy: 0.7834 - val_loss: -1.9475e+00 - ebops: 544269.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-blk2/train.log
+223/223 - 2s - 11ms/step - accuracy: 0.7790 - loss: -1.8234e+00 - val_accuracy: 0.7822 - val_loss: -1.8448e+00 - ebops: 485940.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-both/train.log
+223/223 - 4s - 17ms/step - accuracy: 0.7325 - loss: -2.2590e-01 - val_accuracy: 0.7029 - val_loss: -2.4639e-01 - ebops: 276058.0000 - learning_rate: 0.0030 - beta: 2.9904e-07
+== runs/n64-budget350/train.log
+== runs/n64-cont/train.log
+223/223 - 4s - 18ms/step - accuracy: 0.7972 - loss: -2.0389e+00 - val_accuracy: 0.7870 - val_loss: -2.0241e+00 - ebops: 435898.0000 - learning_rate: 0.0030 - beta: 3.0000e-08
+== runs/n64-core7/train.log
+223/223 - 3s - 15ms/step - accuracy: 0.7721 - loss: -1.8651e+00 - val_accuracy: 0.7775 - val_loss: -1.8995e+00 - ebops: 649922.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-core7v2-mask/train.log
+223/223 - 4s - 17ms/step - accuracy: 0.7531 - loss: -1.6776e+00 - val_accuracy: 0.7667 - val_loss: -1.7340e+00 - ebops: 692968.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-core7v2/train.log
+223/223 - 4s - 20ms/step - accuracy: 0.7901 - loss: -1.9915e+00 - val_accuracy: 0.7880 - val_loss: -2.0017e+00 - ebops: 522901.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-distill/train.log
+223/223 - 12s - 52ms/step - accuracy: 0.7661 - loss: -2.1723e+00 - val_accuracy: 0.7669 - val_loss: -2.1821e+00 - ebops: 570548.0000 - learning_rate: 0.0012 - beta: 1.6857e-08
+== runs/n64-distill2/train.log
+223/223 - 4s - 20ms/step - accuracy: 0.2565 - ce_part: 1.5623 - kd_part: 7.6093 - loss: 2.9349 - val_accuracy: 0.1940 - val_ce_part: 1.6466 - val_kd_part: 9.0245 - val_loss: 3.6335 - ebops: 1681644.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-distill3/train.log
+223/223 - 4s - 20ms/step - accuracy: 0.7990 - ce_part: 0.5754 - kd_part: 0.3373 - loss: -1.8829e+00 - val_accuracy: 0.7972 - val_ce_part: 0.5817 - val_kd_part: 0.3770 - val_loss: -1.8946e+00 - ebops: 751532.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-distill3c/train.log
+223/223 - 4s - 19ms/step - accuracy: 0.7967 - ce_part: 0.5827 - kd_part: 0.3687 - loss: -1.9561e+00 - val_accuracy: 0.8013 - val_ce_part: 0.5714 - val_kd_part: 0.3153 - val_loss: -1.9951e+00 - ebops: 526053.0000 - learning_rate: 0.0030 - beta: 4.0119e-08
+== runs/n64-ffn1e4/train.log
+223/223 - 3s - 14ms/step - accuracy: 0.7940 - loss: -5.3543e+00 - val_accuracy: 0.7978 - val_loss: -5.3828e+00 - ebops: 584815.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-ffnl1/train.log
+223/223 - 3s - 15ms/step - accuracy: 0.7947 - loss: -9.8242e-01 - val_accuracy: 0.7890 - val_loss: -9.8417e-01 - ebops: 568427.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-ffnl1hi/train.log
+223/223 - 2s - 8ms/step - accuracy: 0.7943 - loss: -1.9527e+00 - val_accuracy: 0.7592 - val_loss: -1.8649e+00 - ebops: 531019.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-floor1e4/train.log
+223/223 - 4s - 17ms/step - accuracy: 0.7815 - loss: -1.6404e-01 - val_accuracy: 0.7825 - val_loss: -1.9784e-01 - ebops: 966926.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-gmp16b/train.log
+223/223 - 7s - 33ms/step - accuracy: 0.7907 - loss: -1.9120e+00 - val_accuracy: 0.7839 - val_loss: -1.9092e+00 - ebops: 570283.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-gmpk5/train.log
+223/223 - 6s - 27ms/step - accuracy: 0.7748 - loss: -1.8324e+00 - val_accuracy: 0.7804 - val_loss: -1.8678e+00 - ebops: 614925.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-h1p/train.log
+223/223 - 13s - 60ms/step - accuracy: 0.7927 - loss: -1.4821e+00 - val_accuracy: 0.7939 - val_loss: -1.4954e+00 - ebops: 627369.0000 - learning_rate: 0.0013 - beta: 1.6748e-08
+== runs/n64-hyb-sigb/train.log
+223/223 - 11s - 49ms/step - accuracy: 0.2014 - loss: nan - val_accuracy: 0.2016 - val_loss: nan - ebops: 0.0000e+00 - learning_rate: 0.0030 - beta: 1.1828e-08
+== runs/n64-hyb/train.log
+223/223 - 4s - 19ms/step - accuracy: 0.7861 - loss: -2.5547e+00 - val_accuracy: 0.7870 - val_loss: -2.5700e+00 - ebops: 369253.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-l1e4/train.log
+223/223 - 4s - 17ms/step - accuracy: 0.7853 - loss: -1.2822e+01 - val_accuracy: 0.7847 - val_loss: -1.2833e+01 - ebops: 514025.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-l2e5/train.log
+223/223 - 6s - 25ms/step - accuracy: 0.7952 - loss: -1.8523e+00 - val_accuracy: 0.7874 - val_loss: -1.8355e+00 - ebops: 1047895.0000 - learning_rate: 7.6998e-04 - beta: 5.4961e-09
+== runs/n64-l3e4/train.log
+223/223 - 6s - 28ms/step - accuracy: 0.7503 - loss: -1.4376e+01 - val_accuracy: 0.7541 - val_loss: -1.4769e+01 - ebops: 8810821.0000 - learning_rate: 0.0021 - beta: 4.6526e-10
+== runs/n64-linf/train.log
+223/223 - 188s - 844ms/step - accuracy: 0.7809 - loss: 0.1115 - val_accuracy: 0.7798 - val_loss: 0.1099 - ebops: 4041852.0000 - learning_rate: 3.6135e-04 - beta: 7.4035e-10
+== runs/n64-pid2/train.log
+223/223 - 11s - 50ms/step - accuracy: 0.7965 - loss: -2.0376e+00 - val_accuracy: 0.7992 - val_loss: -2.0595e+00 - ebops: 421111.0000 - learning_rate: 0.0030 - beta: 3.7639e-08
+== runs/n64-pid3/train.log
+223/223 - 4s - 18ms/step - accuracy: 0.6111 - loss: -1.6216e+00 - val_accuracy: 0.6634 - val_loss: -1.7032e+00 - ebops: 366003.0000 - learning_rate: 0.0030 - beta: 4.1085e-08
+== runs/n64-relu-3e5/train.log
+223/223 - 4s - 16ms/step - accuracy: 0.7889 - loss: -6.4611e+00 - val_accuracy: 0.7905 - val_loss: -6.4736e+00 - ebops: 268943.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-relu-blk/train.log
+223/223 - 3s - 16ms/step - accuracy: 0.7447 - loss: 0.6207 - val_accuracy: 0.7416 - val_loss: 0.6033 - ebops: 10809537.0000 - learning_rate: 0.0026 - beta: 3.5719e-10
+== runs/n64-relu-blk2/train.log
+== runs/n64-relu-dist/train.log
+== runs/n64-relu-distb/train.log
+223/223 - 4s - 18ms/step - accuracy: 0.7645 - ce_part: 0.6837 - kd_part: 0.2228 - loss: -2.7940e+00 - val_accuracy: 0.7657 - val_ce_part: 0.6823 - val_kd_part: 0.2147 - val_loss: -2.8093e+00 - ebops: 349323.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-relu/train.log
+223/223 - 11s - 49ms/step - accuracy: 0.7368 - loss: -2.4060e+00 - val_accuracy: 0.7388 - val_loss: -2.4241e+00 - ebops: 391797.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-sat-notanh/train.log
+223/223 - 6s - 28ms/step - accuracy: 0.7721 - loss: -1.5780e+00 - val_accuracy: 0.7868 - val_loss: -1.6360e+00 - ebops: 550156.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-sat/train.log
+223/223 - 5s - 23ms/step - accuracy: 0.7815 - loss: -1.6019e+00 - val_accuracy: 0.7877 - val_loss: -1.6368e+00 - ebops: 602141.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-seed2/train.log
+223/223 - 6s - 25ms/step - accuracy: 0.7827 - loss: -1.8905e+00 - val_accuracy: 0.7876 - val_loss: -1.9210e+00 - ebops: 613583.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-seed2c/train.log
+223/223 - 4s - 19ms/step - accuracy: 0.7937 - loss: -2.0334e+00 - val_accuracy: 0.7858 - val_loss: -2.0232e+00 - ebops: 408665.0000 - learning_rate: 0.0030 - beta: 3.0333e-08
+== runs/n64-sig/train.log
+223/223 - 5s - 24ms/step - accuracy: 0.2014 - loss: nan - val_accuracy: 0.2016 - val_loss: nan - ebops: 0.0000e+00 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-sigb/train.log
+223/223 - 4s - 17ms/step - accuracy: 0.2014 - loss: nan - val_accuracy: 0.2016 - val_loss: nan - ebops: 0.0000e+00 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-tbl/train.log
+223/223 - 4s - 19ms/step - accuracy: 0.7920 - loss: -1.8950e+00 - val_accuracy: 0.7949 - val_loss: -1.9193e+00 - ebops: 597899.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-wl1/train.log
+223/223 - 4s - 17ms/step - accuracy: 0.7797 - loss: -1.6927e+00 - val_accuracy: 0.7883 - val_loss: -1.7195e+00 - ebops: 1069303.0000 - learning_rate: 0.0016 - beta: 3.3364e-09
+== runs/n64-wl1b/train.log
+223/223 - 6s - 25ms/step - accuracy: 0.7859 - loss: -1.7771e+00 - val_accuracy: 0.7852 - val_loss: -1.7930e+00 - ebops: 564864.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/n64-wv10/train.log
+223/223 - 5s - 24ms/step - accuracy: 0.7946 - loss: -2.0636e+00 - val_accuracy: 0.7959 - val_loss: -2.0802e+00 - ebops: 378253.0000 - learning_rate: 0.0030 - beta: 3.7500e-08
+== runs/n64-wv30/train.log
+223/223 - 5s - 23ms/step - accuracy: 0.6711 - loss: -1.6705e+00 - val_accuracy: 0.6836 - val_loss: -1.7007e+00 - ebops: 460347.0000 - learning_rate: 0.0030 - beta: 3.7500e-08
+== runs/n64-wvb/train.log
+223/223 - 3s - 13ms/step - accuracy: 0.2016 - loss: -1.2533e+00 - val_accuracy: 0.2009 - val_loss: -1.2533e+00 - ebops: 432.0000 - learning_rate: 0.0030 - beta: 3.7500e-08
+== runs/n64/train.log
+223/223 - 5s - 21ms/step - accuracy: 0.2015 - loss: 1.6032 - val_accuracy: 0.2009 - val_loss: 1.6031 - ebops: 178.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/qat-150-kt-g1.6-16b-max/train.log
+223/223 - 9s - 41ms/step - accuracy: 0.2008 - loss: 1.5962 - val_accuracy: 0.2023 - val_loss: 1.5811 - ebops: 10826.0000 - learning_rate: 4.5199e-04 - beta: 1.3985e-06
+== runs/qat-150-kt-g1.6-8b-max-mask/train.log
+223/223 - 13s - 60ms/step - accuracy: 0.2007 - loss: 2.0619 - val_accuracy: 0.2011 - val_loss: 8.7949 - ebops: 49462.0000 - learning_rate: 0.0022 - beta: 5.1038e-07
+== runs/qat-150-kt-g1.6-8b-max/train.log
+223/223 - 13s - 57ms/step - accuracy: 0.2022 - loss: 1.6182 - val_accuracy: 0.2023 - val_loss: 1.5992 - ebops: 20688.0000 - learning_rate: 1.1834e-04 - beta: 9.1125e-07
+== runs/qat-150-kt-g1.6-8b-mean/train.log
+223/223 - 5s - 24ms/step - accuracy: 0.4082 - loss: 1.3947 - val_accuracy: 0.4043 - val_loss: 1.3621 - ebops: 10272.0000 - learning_rate: 0.0030 - beta: 2.9904e-06
+== runs/qat-150-kt-g3.2-8b-max/train.log
+223/223 - 6s - 26ms/step - accuracy: 0.2014 - loss: 1.5956 - val_accuracy: 0.2016 - val_loss: 1.5956 - ebops: 50.0000 - learning_rate: 2.4231e-04 - beta: 1.7863e-06
+== runs/qat-150-kt-max/train.log
+223/223 - 27s - 122ms/step - accuracy: 0.3684 - loss: 1.4415 - val_accuracy: 0.3724 - val_loss: 1.4252 - ebops: 8594.0000 - learning_rate: 3.1933e-04 - beta: 1.4120e-06
+== runs/qat-beta0/train.log
+223/223 - 10s - 43ms/step - accuracy: 0.8087 - loss: 0.5409 - val_accuracy: 0.8052 - val_loss: 0.5511 - ebops: 29440185.0000 - learning_rate: 0.0030 - beta: 0.0000e+00
+== runs/qat-beta001/train.log
+223/223 - 11s - 51ms/step - accuracy: 0.7705 - loss: 0.7308 - val_accuracy: 0.7692 - val_loss: 0.6550 - ebops: 2671673.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/qat-bn-tanh-16b/train.log
+223/223 - 16s - 73ms/step - accuracy: 0.3366 - loss: 1.5009 - val_accuracy: 0.3518 - val_loss: 1.3866 - ebops: 3218475.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/qat-bn-tanh-b01/train.log
+223/223 - 6s - 28ms/step - accuracy: 0.3871 - loss: 1.6579 - val_accuracy: 0.4320 - val_loss: 1.3870 - ebops: 801138.0000 - learning_rate: 0.0030 - beta: 2.9904e-07
+== runs/qat-bn-tanh-b1-nomask/train.log
+223/223 - 6s - 28ms/step - accuracy: 0.2016 - loss: 1.7392 - val_accuracy: 0.2016 - val_loss: 1.5937 - ebops: 47229.0000 - learning_rate: 0.0030 - beta: 2.9904e-06
+== runs/qat-bn-tanh-b1/train.log
+223/223 - 127s - 570ms/step - accuracy: 0.2014 - loss: nan - val_accuracy: 0.2016 - val_loss: nan - ebops: -4.7962e+20 - learning_rate: 2.7963e-04 - beta: 2.8526e-07
+== runs/qat-bn-tanh-mean/train.log
+223/223 - 6s - 28ms/step - accuracy: 0.2939 - loss: 1.7254 - val_accuracy: 0.3040 - val_loss: 1.5432 - ebops: 2892870.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/qat-bn-tanh/train.log
+223/223 - 10s - 46ms/step - accuracy: 0.2014 - loss: 1.7314 - val_accuracy: 0.2011 - val_loss: 1.5995 - ebops: 4408618.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/qat-satsym/train.log
+223/223 - 14s - 61ms/step - accuracy: 0.7751 - loss: 0.7010 - val_accuracy: 0.7880 - val_loss: 0.5972 - ebops: 3520399.0000 - learning_rate: 0.0029 - beta: 1.8990e-08
+== runs/satsym-fixed/train.log
+223/223 - 30s - 137ms/step - accuracy: 0.8039 - loss: 0.5785 - val_accuracy: 0.7509 - val_loss: 0.7174 - ebops: 808706.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/slr-cap/train.log
+== runs/slr-champ/train.log
+223/223 - 22s - 99ms/step - accuracy: 0.7886 - loss: -4.8217e+00 - val_accuracy: 0.7882 - val_loss: -4.8460e+00 - ebops: 589047.0000 - learning_rate: 0.0030 - beta: 4.4485e-08
+== runs/slr-rich/train.log
+223/223 - 5s - 22ms/step - accuracy: 0.7133 - loss: -4.6388e+00 - val_accuracy: 0.6858 - val_loss: -4.5908e+00 - ebops: 577260.0000 - learning_rate: 0.0030 - beta: 4.8430e-08
+== runs/slr-rich2/train.log
+223/223 - 9s - 41ms/step - accuracy: 0.7762 - loss: -4.8389e+00 - val_accuracy: 0.7816 - val_loss: -4.8840e+00 - ebops: 511894.0000 - learning_rate: 0.0030 - beta: 6.2573e-08
+== runs/slr-room/train.log
+223/223 - 23s - 103ms/step - accuracy: 0.7726 - loss: -4.7584e+00 - val_accuracy: 0.7601 - val_loss: -4.7589e+00 - ebops: 495213.0000 - learning_rate: 0.0030 - beta: 6.3063e-08
+== runs/twostage2-n64/train.log
+223/223 - 4s - 20ms/step - accuracy: 0.7887 - loss: -1.8921e+00 - val_accuracy: 0.7887 - val_loss: -1.9126e+00 - ebops: 582226.0000 - learning_rate: 0.0030 - beta: 2.9904e-08
+== runs/twostage2c-n64/train.log
+223/223 - 4s - 18ms/step - accuracy: 0.7703 - loss: -1.8835e+00 - val_accuracy: 0.7729 - val_loss: -1.9109e+00 - ebops: 451885.0000 - learning_rate: 0.0030 - beta: 3.3516e-08
+== runs/vu-cap/train.log
+223/223 - 12s - 55ms/step - accuracy: 0.7946 - loss: -1.8241e+01 - val_accuracy: 0.7987 - val_loss: -1.8261e+01 - ebops: 1759098.0000 - learning_rate: 0.0019 - beta: 5.4996e-09
+== runs/vu-long/train.log
+223/223 - 8s - 38ms/step - accuracy: 0.7879 - loss: -4.9631e+00 - val_accuracy: 0.7867 - val_loss: -4.9768e+00 - ebops: 633427.0000 - learning_rate: 0.0030 - beta: 2.9976e-08
+== runs/vu-mid/train.log
+223/223 - 12s - 54ms/step - accuracy: 0.6425 - loss: -8.6822e+00 - val_accuracy: 0.6451 - val_loss: -8.6958e+00 - ebops: 1341403.0000 - learning_rate: 0.0030 - beta: 6.6201e-09
+== runs/vu-paper/train.log
+223/223 - 49s - 220ms/step - accuracy: 0.7853 - loss: -2.3428e+01 - val_accuracy: 0.7900 - val_loss: -2.3449e+01 - ebops: 1404393.0000 - learning_rate: 0.0030 - beta: 6.3115e-09

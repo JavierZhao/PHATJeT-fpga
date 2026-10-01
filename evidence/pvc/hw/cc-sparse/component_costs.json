@@ -1,0 +1,124 @@
+{
+  "ckpt": "/data/phatjet-fpga/runs/n64-wv10/pareto/epoch=693-val_acc=0.8029-ebops=385065.keras",
+  "inputs_kif": [
+    1,
+    8,
+    16
+  ],
+  "total_lut": 486872.9,
+  "vu13p_pct": 28.2,
+  "rows": [
+    {
+      "component": "Embedding",
+      "cut_layer": "embed",
+      "cumulative_lut": 32306.5,
+      "marginal_lut": 32306.5,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 6.6
+    },
+    {
+      "component": "GMP",
+      "cut_layer": "gmp_pointwise",
+      "cumulative_lut": 0.0,
+      "marginal_lut": -32306.5,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": -6.6
+    },
+    {
+      "component": "local: Q/K/V projections",
+      "cut_layer": "local_attn_wv",
+      "cumulative_lut": 135413.5,
+      "marginal_lut": 135413.5,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 27.8
+    },
+    {
+      "component": "local: QK scores",
+      "cut_layer": "local_attn_qk",
+      "cumulative_lut": 91748.0,
+      "marginal_lut": -43665.5,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": -9.0
+    },
+    {
+      "component": "local: SOFTMAX",
+      "cut_layer": "local_attn_softmax",
+      "cumulative_lut": 98066.5,
+      "marginal_lut": 6318.5,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 1.3
+    },
+    {
+      "component": "local: AV",
+      "cut_layer": "local_attn_av",
+      "cumulative_lut": 150994.5,
+      "marginal_lut": 52928.0,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 10.9
+    },
+    {
+      "component": "local: output proj",
+      "cut_layer": "local_attn_wo",
+      "cumulative_lut": 167263.5,
+      "marginal_lut": 16269.0,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 3.3
+    },
+    {
+      "component": "global: Q/K/V projections",
+      "cut_layer": "patch_attn_wv",
+      "cumulative_lut": 395451.4,
+      "marginal_lut": 228187.90000000002,
+      "cumulative_latency_ns": 9.0,
+      "pct_of_total": 46.9
+    },
+    {
+      "component": "global: QK scores",
+      "cut_layer": "patch_attn_qk",
+      "cumulative_lut": 387444.7,
+      "marginal_lut": -8006.700000000012,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": -1.6
+    },
+    {
+      "component": "global: SOFTMAX",
+      "cut_layer": "patch_attn_softmax",
+      "cumulative_lut": 391602.7,
+      "marginal_lut": 4158.0,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 0.9
+    },
+    {
+      "component": "global: AV",
+      "cut_layer": "patch_attn_av",
+      "cumulative_lut": 410415.4,
+      "marginal_lut": 18812.70000000001,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 3.9
+    },
+    {
+      "component": "global: out + msg proj",
+      "cut_layer": "patch_msg_proj",
+      "cumulative_lut": 428888.9,
+      "marginal_lut": 18473.5,
+      "cumulative_latency_ns": 84.0,
+      "pct_of_total": 3.8
+    },
+    {
+      "component": "FFN",
+      "cut_layer": "ffn2",
+      "cumulative_lut": 434947.4,
+      "marginal_lut": 6058.5,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 1.2
+    },
+    {
+      "component": "Aggregation + head",
+      "cut_layer": "head_out",
+      "cumulative_lut": 486872.9,
+      "marginal_lut": 51925.5,
+      "cumulative_latency_ns": 169.0,
+      "pct_of_total": 10.7
+    }
+  ]
+}

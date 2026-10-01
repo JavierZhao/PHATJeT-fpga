@@ -1,0 +1,102 @@
+[
+  {
+    "ckpt": "/data/phatjet-fpga/runs/g-ls-s2/pareto/epoch=16-val_acc=0.8089-ebops=1519095.0.keras",
+    "part": "xcvu13p-flga2577-2-e",
+    "clock_ns": 3.33,
+    "epoch": 16,
+    "ckpt_val_acc": 0.8089,
+    "ebops": 1519095,
+    "solver_options": {
+      "hard_dc": 2
+    },
+    "lut_est": 1446355.1,
+    "comb_latency_ns": 191.0,
+    "lut_pct_vu13p": 83.7,
+    "stages": 48,
+    "latency_ns_at_clock": 159.8,
+    "ff_est_reg_bits": 1030032,
+    "ff_pct_vu13p": 29.8,
+    "dsp": 0,
+    "bram": 0,
+    "ii": 1,
+    "verilog_dir": "/data/phatjet-fpga/hw/goalmulti/kif_1_8_20/verilog_epoch_16_val_acc_0_8089_ebops_1519095_0",
+    "emu_max_abs_err": 0.0,
+    "emu_argmax_match": 1.0,
+    "bit_exact": true
+  },
+  {
+    "ckpt": "/data/phatjet-fpga/runs/g-ls-s3/pareto/epoch=23-val_acc=0.8094-ebops=1537536.0.keras",
+    "part": "xcvu13p-flga2577-2-e",
+    "clock_ns": 3.33,
+    "epoch": 23,
+    "ckpt_val_acc": 0.8094,
+    "ebops": 1537536,
+    "solver_options": {
+      "hard_dc": 2
+    },
+    "lut_est": 1476484.5,
+    "comb_latency_ns": 192.0,
+    "lut_pct_vu13p": 85.4,
+    "stages": 49,
+    "latency_ns_at_clock": 163.2,
+    "ff_est_reg_bits": 1046608,
+    "ff_pct_vu13p": 30.3,
+    "dsp": 0,
+    "bram": 0,
+    "ii": 1,
+    "verilog_dir": "/data/phatjet-fpga/hw/goalmulti/kif_1_8_20/verilog_epoch_23_val_acc_0_8094_ebops_1537536_0",
+    "emu_max_abs_err": 0.0,
+    "emu_argmax_match": 1.0,
+    "bit_exact": true
+  },
+  {
+    "ckpt": "/data/phatjet-fpga/runs/g-ls-s4/pareto/epoch=1-val_acc=0.8087-ebops=1541783.0.keras",
+    "part": "xcvu13p-flga2577-2-e",
+    "clock_ns": 3.33,
+    "epoch": 1,
+    "ckpt_val_acc": 0.8087,
+    "ebops": 1541783,
+    "solver_options": {
+      "hard_dc": 2
+    },
+    "lut_est": 1463140.2,
+    "comb_latency_ns": 192.0,
+    "lut_pct_vu13p": 84.7,
+    "stages": 49,
+    "latency_ns_at_clock": 163.2,
+    "ff_est_reg_bits": 1041172,
+    "ff_pct_vu13p": 30.1,
+    "dsp": 0,
+    "bram": 0,
+    "ii": 1,
+    "verilog_dir": "/data/phatjet-fpga/hw/goalmulti/kif_1_8_20/verilog_epoch_1_val_acc_0_8087_ebops_1541783_0",
+    "emu_max_abs_err": 0.10614776611328125,
+    "emu_argmax_match": 1.0,
+    "bit_exact": false
+  },
+  {
+    "ckpt": "/data/phatjet-fpga/runs/g-nopress/pareto/epoch=25-val_acc=0.8093-ebops=1549758.keras",
+    "part": "xcvu13p-flga2577-2-e",
+    "clock_ns": 3.33,
+    "epoch": 25,
+    "ckpt_val_acc": 0.8093,
+    "ebops": 1549758,
+    "solver_options": {
+      "hard_dc": 2
+    },
+    "lut_est": 1478979.5,
+    "comb_latency_ns": 194.0,
+    "lut_pct_vu13p": 85.6,
+    "stages": 49,
+    "latency_ns_at_clock": 163.2,
+    "ff_est_reg_bits": 1052066,
+    "ff_pct_vu13p": 30.4,
+    "dsp": 0,
+    "bram": 0,
+    "ii": 1,
+    "verilog_dir": "/data/phatjet-fpga/hw/goalmulti/kif_1_8_20/verilog_epoch_25_val_acc_0_8093_ebops_1549758",
+    "emu_max_abs_err": 0.0,
+    "emu_argmax_match": 1.0,
+    "bit_exact": true
+  }
+]

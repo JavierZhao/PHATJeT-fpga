@@ -1,0 +1,84 @@
+{
+  "ckpt": "/data/phatjet-fpga/runs/n128-jediaz/pareto/epoch=283-val_acc=0.8109-ebops=224212.keras",
+  "inputs_kif": [
+    1,
+    5,
+    8
+  ],
+  "total_lut": 181436.5,
+  "vu13p_pct": 10.5,
+  "rows": [
+    {
+      "component": "Embed (3->64)",
+      "cut_layer": "jedi_embed",
+      "cumulative_lut": 29569.0,
+      "marginal_lut": 29569.0,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 16.3
+    },
+    {
+      "component": "Sender (64->64)",
+      "cut_layer": "jedi_send",
+      "cumulative_lut": 75828.0,
+      "marginal_lut": 46259.0,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 25.5
+    },
+    {
+      "component": "Pool + receiver + add",
+      "cut_layer": "jedi_add",
+      "cumulative_lut": 96141.5,
+      "marginal_lut": 20313.5,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 11.2
+    },
+    {
+      "component": "Node2 (64->64)",
+      "cut_layer": "jedi_node2",
+      "cumulative_lut": 142135.5,
+      "marginal_lut": 45994.0,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 25.3
+    },
+    {
+      "component": "Global pool",
+      "cut_layer": "jedi_pool2",
+      "cumulative_lut": 153637.0,
+      "marginal_lut": 11501.5,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 6.3
+    },
+    {
+      "component": "Head 64",
+      "cut_layer": "jedi_head1",
+      "cumulative_lut": 165651.5,
+      "marginal_lut": 12014.5,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 6.6
+    },
+    {
+      "component": "Head 32",
+      "cut_layer": "jedi_head2",
+      "cumulative_lut": 175616.5,
+      "marginal_lut": 9965.0,
+      "cumulative_latency_ns": 40.0,
+      "pct_of_total": 5.5
+    },
+    {
+      "component": "Head 16",
+      "cut_layer": "jedi_head3",
+      "cumulative_lut": 180219.5,
+      "marginal_lut": 4603.0,
+      "cumulative_latency_ns": 46.0,
+      "pct_of_total": 2.5
+    },
+    {
+      "component": "Output",
+      "cut_layer": "jedi_out",
+      "cumulative_lut": 181436.5,
+      "marginal_lut": 1217.0,
+      "cumulative_latency_ns": 53.0,
+      "pct_of_total": 0.7
+    }
+  ]
+}

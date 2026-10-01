@@ -1,0 +1,31 @@
+[
+  {
+    "ckpt": "/data/phatjet-fpga/runs/g-ls-s3/pareto/epoch=195-val_acc=0.8103-ebops=1545706.0.keras",
+    "part": "xcvu13p-flga2577-2-e",
+    "clock_ns": 3.33,
+    "epoch": 195,
+    "ckpt_val_acc": 0.8103,
+    "ebops": 1545706,
+    "solver_options": {
+      "hard_dc": 2
+    },
+    "lut_est": 1577184.5000000002,
+    "comb_latency_ns": 194.0,
+    "lut_pct_vu13p": 91.3,
+    "stages": 49,
+    "latency_ns_at_clock": 163.2,
+    "ff_est_reg_bits": 1066585,
+    "ff_pct_vu13p": 30.9,
+    "dsp": 0,
+    "bram": 0,
+    "ii": 1,
+    "dais_n": 2000,
+    "dais_max_abs_err": 0.0,
+    "dais_argmax_match": 1.0,
+    "dais_exact": true,
+    "verilog_dir": "/data/phatjet-fpga/hw/trace103/kif_1_8_20/verilog_epoch_195_val_acc_0_8103_ebops_1545706_0",
+    "emu_max_abs_err": 0.0,
+    "emu_argmax_match": 1.0,
+    "bit_exact": true
+  }
+]

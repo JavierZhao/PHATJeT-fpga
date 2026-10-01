@@ -1,0 +1,24 @@
+[
+  {
+    "ckpt": "/data/phatjet-fpga/frozen/g-ls-s3__epoch=414-val_acc=0.8101-ebops=1527476.0.keras",
+    "part": "xcvu13p-flga2577-2-e",
+    "clock_ns": 3.33,
+    "epoch": 414,
+    "ckpt_val_acc": 0.8101,
+    "ebops": 1527476,
+    "solver_options": {
+      "hard_dc": 2
+    },
+    "lut_est": 1572206.4000000001,
+    "comb_latency_ns": 198.0,
+    "lut_pct_vu13p": 91.0,
+    "stages": 60,
+    "latency_ns_at_clock": 199.8,
+    "ff_est_reg_bits": 1297909,
+    "ff_pct_vu13p": 37.6,
+    "dsp": 0,
+    "bram": 0,
+    "ii": 1,
+    "verilog_dir": "/data/phatjet-fpga/hw/latsweep/cut_3_33/verilog_g_ls_s3__epoch_414_val_acc_0_8101_ebops_"
+  }
+]

@@ -1,0 +1,124 @@
+{
+  "ckpt": "/data/phatjet-fpga/runs/n32/pareto/epoch=841-val_acc=0.7912-ebops=1407144.keras",
+  "inputs_kif": [
+    1,
+    5,
+    8
+  ],
+  "total_lut": 2651843.1,
+  "vu13p_pct": 153.5,
+  "rows": [
+    {
+      "component": "Embedding",
+      "cut_layer": "embed",
+      "cumulative_lut": 21579.0,
+      "marginal_lut": 21579.0,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 0.8
+    },
+    {
+      "component": "GMP",
+      "cut_layer": "gmp_pointwise",
+      "cumulative_lut": 0.0,
+      "marginal_lut": -21579.0,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": -0.8
+    },
+    {
+      "component": "local: Q/K/V projections",
+      "cut_layer": "local_attn_wv",
+      "cumulative_lut": 379541.1,
+      "marginal_lut": 379541.1,
+      "cumulative_latency_ns": 12.0,
+      "pct_of_total": 14.3
+    },
+    {
+      "component": "local: QK scores",
+      "cut_layer": "local_attn_qk",
+      "cumulative_lut": 544584.6,
+      "marginal_lut": 165043.5,
+      "cumulative_latency_ns": 20.0,
+      "pct_of_total": 6.2
+    },
+    {
+      "component": "local: SOFTMAX",
+      "cut_layer": "local_attn_softmax",
+      "cumulative_lut": 1391310.6,
+      "marginal_lut": 846726.0000000001,
+      "cumulative_latency_ns": 50.0,
+      "pct_of_total": 31.9
+    },
+    {
+      "component": "local: AV",
+      "cut_layer": "local_attn_av",
+      "cumulative_lut": 1666014.6,
+      "marginal_lut": 274704.0,
+      "cumulative_latency_ns": 58.0,
+      "pct_of_total": 10.4
+    },
+    {
+      "component": "local: output proj",
+      "cut_layer": "local_attn_wo",
+      "cumulative_lut": 1740286.6,
+      "marginal_lut": 74272.0,
+      "cumulative_latency_ns": 67.0,
+      "pct_of_total": 2.8
+    },
+    {
+      "component": "global: Q/K/V projections",
+      "cut_layer": "patch_attn_wv",
+      "cumulative_lut": 2003006.1,
+      "marginal_lut": 262719.5,
+      "cumulative_latency_ns": 88.0,
+      "pct_of_total": 9.9
+    },
+    {
+      "component": "global: QK scores",
+      "cut_layer": "patch_attn_qk",
+      "cumulative_lut": 2015183.6,
+      "marginal_lut": 12177.5,
+      "cumulative_latency_ns": 90.0,
+      "pct_of_total": 0.5
+    },
+    {
+      "component": "global: SOFTMAX",
+      "cut_layer": "patch_attn_softmax",
+      "cumulative_lut": 2047745.1,
+      "marginal_lut": 32561.5,
+      "cumulative_latency_ns": 117.0,
+      "pct_of_total": 1.2
+    },
+    {
+      "component": "global: AV",
+      "cut_layer": "patch_attn_av",
+      "cumulative_lut": 2076660.1,
+      "marginal_lut": 28915.0,
+      "cumulative_latency_ns": 128.0,
+      "pct_of_total": 1.1
+    },
+    {
+      "component": "global: out + msg proj",
+      "cut_layer": "patch_msg_proj",
+      "cumulative_lut": 2103687.1,
+      "marginal_lut": 27027.0,
+      "cumulative_latency_ns": 152.0,
+      "pct_of_total": 1.0
+    },
+    {
+      "component": "FFN",
+      "cut_layer": "ffn2",
+      "cumulative_lut": 2628364.1,
+      "marginal_lut": 524677.0,
+      "cumulative_latency_ns": 170.0,
+      "pct_of_total": 19.8
+    },
+    {
+      "component": "Aggregation + head",
+      "cut_layer": "head_out",
+      "cumulative_lut": 2651843.1,
+      "marginal_lut": 23479.0,
+      "cumulative_latency_ns": 198.0,
+      "pct_of_total": 0.9
+    }
+  ]
+}

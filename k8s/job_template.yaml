@@ -1,0 +1,70 @@
+# RECONSTRUCTED, UNTESTED. The original generator (gen_torch.py) lived in a
+# session scratchpad and is lost. This template is rebuilt from the gotchas in
+# CLAUDE.md and DECISIONS D9/D12/D15/D134. Check one job end to end before
+# fanning out.
+#
+# Env ground truth: copy the PJ_* knobs from the source run's
+# evidence/pvc/runs/<run>/run_config.json. Keys do NOT map 1:1 to env names
+# (NUM_PARTICLES -> PJ_PARTICLES, OUTDIR -> PJ_OUT, ...): see
+# evidence/run_config_env_map.md, generated from train_qat.py. The canonical
+# record recipe is evidence/pvc/runs/g-ls-s3/run_config.json. For any resume
+# (PJ_RESUME_CKPT), diff the FULL structural env against the source run's
+# run_config.json, not just the knobs you are changing (D141: PJ_FFN_MULT
+# defaults to 4, the record is 1).
+#
+# Ship source first:
+#   kubectl create configmap zz-phatjet-src -n cms-ml \
+#     --from-file=phat_jet_k3.py --from-file=train_qat.py --from-file=prep_data.py \
+#     --from-file=train_float.py --from-file=extract_hw.py --from-file=component_costs.py \
+#     --from-file=calib_screen.py --from-file=float_eval_qat.py --from-file=sparsity_report.py \
+#     --dry-run=client -o yaml | kubectl apply -f -
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: zz-pj-RUNTAG            # always zz- (zh- jobs belong to someone else)
+  namespace: cms-ml
+spec:
+  backoffLimit: 6               # D15: absorbs the epoch-1 cuDNN 5003 flake on jax
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+      - name: train
+        # torch backend: immune to the cuDNN 5003 flake, 3-5x slower (D12/D134).
+        # Prefer it for long arms. For jax instead: python:3.11-slim,
+        # pip install "jax[cuda12]", KERAS_BACKEND=jax,
+        # XLA_FLAGS=--xla_gpu_autotune_level=0, XLA_PYTHON_CLIENT_PREALLOCATE=false.
+        image: pytorch/pytorch:2.5.0-cuda12.4-cudnn9-runtime
+        command: ["/bin/bash", "-c"]   # the image's /bin/sh is dash: no pipefail
+        args:
+        - |
+          set -euo pipefail            # without pipefail, `python | tee` hides crashes
+          pip install -q "keras>=3.11" hgq2 da4ml   # hgq2, NOT hgq (v1 pins keras<3)
+          mkdir -p /work && cp /src/*.py /work/ && cd /work
+          mkdir -p "$PJ_OUT"
+          python -u train_qat.py 2>&1 | tee "$PJ_OUT/train.log"
+        env:
+        - {name: KERAS_BACKEND, value: torch}
+        - {name: PJ_OUT, value: /data/phatjet-fpga/runs/RUNTAG}
+        - {name: PJ_DATA, value: /data/phatjet-fpga/jets_128x3_aaron_ourunits_kt.npz}  # "" for trace-only jobs
+        - {name: PJ_PARTICLES, value: "128"}
+        - {name: PJ_PATCH, value: "8"}
+        - {name: PJ_D_MODEL, value: "16"}
+        - {name: PJ_FFN_MULT, value: "1"}
+        # ... remaining PJ_* from run_config.json
+        resources:
+          requests: {nvidia.com/gpu: 1, cpu: "4", memory: 24Gi}   # generic gpu schedules faster than a100
+          limits:   {nvidia.com/gpu: 1, cpu: "8", memory: 32Gi}
+        volumeMounts:
+        - {name: data, mountPath: /data}
+        - {name: src, mountPath: /src}
+      volumes:
+      - name: data
+        persistentVolumeClaim: {claimName: j-jepa-vol}
+      - name: src
+        configMap: {name: zz-phatjet-src}
+# Trace jobs: same shape, run `python extract_hw.py <ckpt.keras>` with the
+# training run's structural env, PJ_DATA="" (loading the npz
+# from cephfs stalled a trace job 15+ min, CLAUDE.md), the checkpoint path
+# taken from frozen/, never a live pareto/ (D171), PJ_INPUTS_KIF=1,8,20 for >1M-EBOPs
+# checkpoints (D140), and PJ_LATENCY_CUTOFF=3.33 (D172).

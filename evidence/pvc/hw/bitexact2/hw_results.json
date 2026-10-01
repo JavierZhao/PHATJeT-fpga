@@ -1,0 +1,22 @@
+[
+  {
+    "ckpt": "/data/phatjet-fpga/runs/n32-best-b01/pareto/epoch=480-val_acc=0.7879-ebops=700042.keras",
+    "part": "xcvu13p-flga2577-2-e",
+    "clock_ns": 3.33,
+    "epoch": 480,
+    "ckpt_val_acc": 0.7879,
+    "ebops": 700042,
+    "lut_est": 1219047.5,
+    "comb_latency_ns": 177.0,
+    "lut_pct_vu13p": 70.5,
+    "stages": 45,
+    "latency_ns_at_clock": 149.8,
+    "ff_est_reg_bits": 633358,
+    "ff_pct_vu13p": 18.3,
+    "dsp": 0,
+    "bram": 0,
+    "ii": 1,
+    "verilog_dir": "/data/phatjet-fpga/hw/bitexact2/verilog_epoch_480-val_acc_0.7879-ebops_700042",
+    "verilog_error": "RuntimeError: Compilation failed!!"
+  }
+]

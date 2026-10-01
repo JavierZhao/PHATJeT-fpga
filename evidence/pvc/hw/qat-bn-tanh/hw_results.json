@@ -1,0 +1,36 @@
+[
+  {
+    "ckpt": "/data/phatjet-fpga/runs/qat-bn-tanh/pareto/epoch=207-val_acc=0.8108-ebops=7900252.keras",
+    "part": "xcvu13p-flga2577-2-e",
+    "clock_ns": 3.33,
+    "val_acc": 0.81055,
+    "n_eval": 20000,
+    "lut_est": 9992763.499999989,
+    "comb_latency_ns": 223.0,
+    "stages": 56,
+    "latency_ns_at_clock": 186.5,
+    "ff_est_reg_bits": 4558576,
+    "dsp": 0,
+    "bram": 0,
+    "ii": 1,
+    "verilog_dir": "/data/phatjet-fpga/hw/qat-bn-tanh/verilog_epoch_207-val_acc_0.8108-ebops_7900252",
+    "verilog_error": "FileNotFoundError: [Errno 2] No such file or directory: 'make'"
+  },
+  {
+    "ckpt": "/data/phatjet-fpga/runs/qat-bn-tanh/pareto/epoch=424-val_acc=0.8101-ebops=5004958.keras",
+    "part": "xcvu13p-flga2577-2-e",
+    "clock_ns": 3.33,
+    "val_acc": 0.8085,
+    "n_eval": 20000,
+    "lut_est": 7449939.2,
+    "comb_latency_ns": 217.0,
+    "stages": 55,
+    "latency_ns_at_clock": 183.2,
+    "ff_est_reg_bits": 3723680,
+    "dsp": 0,
+    "bram": 0,
+    "ii": 1,
+    "verilog_dir": "/data/phatjet-fpga/hw/qat-bn-tanh/verilog_epoch_424-val_acc_0.8101-ebops_5004958",
+    "verilog_error": "FileNotFoundError: [Errno 2] No such file or directory: 'make'"
+  }
+]

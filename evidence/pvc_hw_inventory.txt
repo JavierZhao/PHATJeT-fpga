@@ -1,0 +1,121 @@
+aaron:
+total 4602
+drwxr-xr-x 5 root root       9 Jul 26 20:55 .
+drwxr-xr-x 7 root root      16 Jul 31 16:02 ..
+drwxr-xr-x 2 root root       2 Jul 26 18:14 data
+-rw-r--r-- 1 1000 1000  233353 Jul 26 18:14 float_phatjet_core7.keras
+drwxr-xr-x 2 root root      36 Jul 26 19:40 pareto_run6_core7_1000ep
+-rw-r--r-- 1 root root 2096112 Jul 26 20:55 run6_core7_1000ep_final.keras
+-rw-r--r-- 1 root root  135601 Jul 26 20:55 run6_core7_1000ep_hist.json
+-rw-r--r-- 1 root root 1932228 Jul 26 20:55 run6_core7_1000ep_latest.weights.h5
+-rw-r--r-- 1 root root  131463 Jul 26 20:55 run6_core7_1000ep_log.csv
+drwxr-xr-x 3 root root       6 Jul 26 18:23 scripts
+-rw-r--r-- 1 root root  183206 Jul 26 20:55 train_rep.log
+
+teachers:
+total 222
+drwxr-xr-x 4 root root      3 Jul 30 02:34 .
+drwxr-xr-x 7 root root     16 Jul 31 16:02 ..
+drwxr-xr-x 2 root root      3 Jul 26 08:12 f64
+-rw-r--r-- 1 root root 227262 Jul 26 07:54 float_n64_frozen.keras
+drwxr-xr-x 2 root root      3 Jul 30 07:36 rich128
+hw/FINAL/verilog_epoch_913_val_acc_0_7911_ebops_259037
+hw/FINAL/verilog_epoch_993_val_acc_0_8023_ebops_524687
+hw/attnl1-hi/verilog_epoch_973-val_acc_0.7898-ebops_889029
+hw/attnl1-mid/verilog_epoch_992-val_acc_0.8004-ebops_1251731
+hw/best-n64/verilog_epoch_991-val_acc_0.8043-ebops_1168456
+hw/bitexact/verilog_epoch_480-val_acc_0.7879-ebops_700042
+hw/bitexact2/verilog_epoch_480-val_acc_0.7879-ebops_700042
+hw/bitexact3/verilog_epoch_480_val_acc_0_7879_ebops_700042
+hw/curve-g1.6-8b-max/verilog_epoch_124-val_acc_0.7630-ebops_1083019
+hw/curve-g1.6-8b-max/verilog_epoch_139-val_acc_0.7544-ebops_1022621
+hw/curve-g1.6-8b-max/verilog_epoch_183-val_acc_0.7407-ebops_795638
+hw/curve-g1.6-8b-max/verilog_epoch_197-val_acc_0.7325-ebops_751077
+hw/dais/kif_1_8_20/verilog_epoch_27_val_acc_0_8096_ebops_1535567_0
+hw/ffn1/verilog_epoch_835-val_acc_0.8018-ebops_2075519
+hw/ffn1/verilog_epoch_922-val_acc_0.7870-ebops_1791485
+hw/final-day/verilog_epoch_33_val_acc_0_7947_ebops_474586
+hw/final-day/verilog_epoch_565_val_acc_0_7961_ebops_393279_0
+hw/fit-n64/verilog_epoch_987-val_acc_0.8024-ebops_1031260
+hw/frontier/verilog_epoch_701-val_acc_0.8071-ebops_1919382
+hw/frontier/verilog_epoch_837-val_acc_0.8057-ebops_1599526
+hw/frontier/verilog_epoch_920-val_acc_0.8051-ebops_1452619
+hw/frontier/verilog_epoch_981-val_acc_0.8035-ebops_1305182
+hw/frontier/verilog_epoch_992-val_acc_0.8004-ebops_1251731
+hw/goalmulti/kif_1_8_20/verilog_epoch_16_val_acc_0_8089_ebops_1519095_0
+hw/goalmulti/kif_1_8_20/verilog_epoch_1_val_acc_0_8087_ebops_1541783_0
+hw/goalmulti/kif_1_8_20/verilog_epoch_23_val_acc_0_8094_ebops_1537536_0
+hw/goalmulti/kif_1_8_20/verilog_epoch_25_val_acc_0_8093_ebops_1549758
+hw/goalwin/kif_1_8_20/verilog_epoch_27_val_acc_0_8096_ebops_1535567_0
+hw/goalwin2/kif_1_10_32/verilog_epoch_27_val_acc_0_8096_ebops_1535567_0
+hw/goalwin2/kif_1_8_26/verilog_epoch_27_val_acc_0_8096_ebops_1535567_0
+hw/goalwin3/kif_1_6_25/verilog_epoch_27_val_acc_0_8096_ebops_1535567_0
+hw/goalwin3/kif_1_8_23/verilog_epoch_27_val_acc_0_8096_ebops_1535567_0
+hw/jedi/verilog_epoch_202_val_acc_0_8048_ebops_326970
+hw/jedi/verilog_epoch_210_val_acc_0_8048_ebops_351152
+hw/jediaz/verilog_epoch_283_val_acc_0_8109_ebops_224212
+hw/jedis2/verilog_epoch_208_val_acc_0_8063_ebops_309187
+hw/jedis2/verilog_epoch_411_val_acc_0_8042_ebops_140558
+hw/k16-a3e5/verilog_epoch_974_val_acc_0_7811_ebops_728200
+hw/k16-attnhi/verilog_epoch_973_val_acc_0_7898_ebops_889029
+hw/k16-avl1/verilog_epoch_635_val_acc_0_8001_ebops_442524
+hw/k16-bestb01/verilog_epoch_832_val_acc_0_7758_ebops_569972
+hw/k16-ffnl1hi/verilog_epoch_993_val_acc_0_8023_ebops_524687
+hw/k16-fita/verilog_epoch_982_val_acc_0_7856_ebops_744517
+hw/k16-fitn64/verilog_epoch_987_val_acc_0_8024_ebops_1031260
+hw/k16-fitn64hi/verilog_epoch_988_val_acc_0_8022_ebops_655727
+hw/k16-n128/verilog_epoch_993_val_acc_0_8005_ebops_666359
+hw/k16-n32b01/verilog_epoch_480_val_acc_0_7879_ebops_700042
+hw/k16-n64all/verilog_epoch_913_val_acc_0_7911_ebops_259037
+hw/k16-n64both/verilog_epoch_688_val_acc_0_7950_ebops_448861
+hw/k16-relu/verilog_epoch_686_val_acc_0_7998_ebops_420710
+hw/k16-relu2/verilog_epoch_901_val_acc_0_8002_ebops_365100
+hw/kifscan/kif_1_8_20/verilog_epoch_773_val_acc_0_8077_ebops_1536867
+hw/kifscan/kif_1_8_24/verilog_epoch_773_val_acc_0_8077_ebops_1536867
+hw/latsweep/cut_2_5/verilog_g_ls_s3__epoch_414_val_acc_0_8101_ebops_
+hw/latsweep/cut_3_33/verilog_g_ls_s3__epoch_414_val_acc_0_8101_ebops_
+hw/latsweep/cut_4_0/verilog_g_ls_s3__epoch_414_val_acc_0_8101_ebops_
+hw/latsweep/verilog_epoch_901_val_acc_0_7988_ebops_494497_0
+hw/n128pid/verilog_epoch_419_val_acc_0_7995_ebops_546677_0
+hw/n128pid/verilog_epoch_901_val_acc_0_7988_ebops_494497_0
+hw/n128relu/verilog_epoch_700_val_acc_0_7979_ebops_416581
+hw/n128relu/verilog_epoch_991_val_acc_0_7964_ebops_335237
+hw/n16-b01/verilog_epoch_353-val_acc_0.7363-ebops_549312
+hw/n16-b01/verilog_epoch_872-val_acc_0.7226-ebops_248737
+hw/n16/verilog_epoch_982-val_acc_0.7401-ebops_607399
+hw/n16/verilog_epoch_993-val_acc_0.7381-ebops_600276
+hw/n16ktc/verilog_epoch_126_val_acc_0_7248_ebops_400133_0
+hw/n16ktc/verilog_epoch_981_val_acc_0_6684_ebops_243323_0
+hw/n32-best-b01/verilog_epoch_352-val_acc_0.7890-ebops_861423
+hw/n32-best-b01/verilog_epoch_480-val_acc_0.7879-ebops_700042
+hw/n32-best-b01/verilog_epoch_953-val_acc_0.7639-ebops_311473
+hw/n32-best/verilog_epoch_983-val_acc_0.7912-ebops_844006
+hw/n32-best/verilog_epoch_992-val_acc_0.7900-ebops_837721
+hw/n32/verilog_epoch_841-val_acc_0.7912-ebops_1407144
+hw/n32/verilog_epoch_992-val_acc_0.7710-ebops_1137714
+hw/n32p4c/verilog_epoch_283_val_acc_0_7704_ebops_489899_0
+hw/n32p4c/verilog_epoch_482_val_acc_0_7621_ebops_469454_0
+hw/n64wv/verilog_epoch_67_val_acc_0_8035_ebops_415173
+hw/n64wv/verilog_epoch_693_val_acc_0_8029_ebops_385065
+hw/n64wv2/verilog_epoch_823_val_acc_0_8015_ebops_376140
+hw/n64wv2/verilog_epoch_844_val_acc_0_8012_ebops_365847
+hw/n64wvb/verilog_epoch_206_val_acc_0_8010_ebops_349656
+hw/n64wvb/verilog_epoch_63_val_acc_0_8019_ebops_370139
+hw/pid2/verilog_epoch_562_val_acc_0_8036_ebops_427680_0
+hw/pid2/verilog_epoch_922_val_acc_0_8012_ebops_405096_0
+hw/qat-bn-tanh/verilog_epoch_207-val_acc_0.8108-ebops_7900252
+hw/qat-bn-tanh/verilog_epoch_424-val_acc_0.8101-ebops_5004958
+hw/relub-screen/verilog_epoch_901_val_acc_0_8002_ebops_365100
+hw/solversweep/verilog_epoch_993_val_acc_0_8023_ebops_524687
+hw/trace101/kif_1_8_20/verilog_epoch_152_val_acc_0_8101_ebops_1538843_0
+hw/trace103/kif_1_8_20/verilog_epoch_195_val_acc_0_8103_ebops_1545706_0
+hw/trace106/kif_1_8_20/verilog_epoch_278_val_acc_0_8106_ebops_1549720_0
+hw/trace108/kif_1_8_20/verilog_epoch_327_val_acc_0_8105_ebops_1530745_0
+hw/trace108/kif_1_8_20/verilog_epoch_412_val_acc_0_8108_ebops_1550253_0
+hw/tracex1/kif_1_8_20/verilog_epoch_23_val_acc_0_8097_ebops_1513600_0
+hw/tracex3/kif_1_8_20/verilog_epoch_167_val_acc_0_8103_ebops_1535995_0
+hw/vulong/verilog_epoch_773_val_acc_0_8077_ebops_1536867
+hw/wv10/verilog_epoch_64_val_acc_0_7990_ebops_502148
+hw/wv10/verilog_epoch_979_val_acc_0_7957_ebops_427029
+hw/wv30/verilog_epoch_140_val_acc_0_7984_ebops_491167
+hw/wv30/verilog_epoch_977_val_acc_0_7957_ebops_411806

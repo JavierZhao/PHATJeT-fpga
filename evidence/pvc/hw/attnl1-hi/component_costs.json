@@ -1,0 +1,60 @@
+{
+  "ckpt": "/data/phatjet-fpga/runs/attnl1-hi/pareto/epoch=973-val_acc=0.7898-ebops=889029.keras",
+  "inputs_kif": [
+    1,
+    5,
+    8
+  ],
+  "total_lut": 1102348.3,
+  "vu13p_pct": 63.8,
+  "rows": [
+    {
+      "component": "Embedding",
+      "cut_layer": "embed",
+      "cumulative_lut": 50511.5,
+      "marginal_lut": 50511.5,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 4.6
+    },
+    {
+      "component": "GMP (bins+scatter+conv+gather+pointwise)",
+      "cut_layer": "gmp_pointwise",
+      "cumulative_lut": 0.0,
+      "marginal_lut": -50511.5,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": -4.6
+    },
+    {
+      "component": "Local patch attention",
+      "cut_layer": "local_attn_wo",
+      "cumulative_lut": 231150.5,
+      "marginal_lut": 231150.5,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 21.0
+    },
+    {
+      "component": "Patch pooling + global MHSA",
+      "cut_layer": "patch_msg_proj",
+      "cumulative_lut": 792333.8,
+      "marginal_lut": 561183.3,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 50.9
+    },
+    {
+      "component": "FFN",
+      "cut_layer": "ffn2",
+      "cumulative_lut": 1050637.8,
+      "marginal_lut": 258304.0,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 23.4
+    },
+    {
+      "component": "Aggregation + classifier head",
+      "cut_layer": "head_out",
+      "cumulative_lut": 1102348.3,
+      "marginal_lut": 51710.5,
+      "cumulative_latency_ns": 179.0,
+      "pct_of_total": 4.7
+    }
+  ]
+}

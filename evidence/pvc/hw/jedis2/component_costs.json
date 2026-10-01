@@ -1,0 +1,92 @@
+{
+  "ckpt": "/data/phatjet-fpga/runs/n128-jedigmps2/pareto/epoch=208-val_acc=0.8063-ebops=309187.keras",
+  "inputs_kif": [
+    1,
+    5,
+    8
+  ],
+  "total_lut": 256954.0,
+  "vu13p_pct": 14.9,
+  "rows": [
+    {
+      "component": "Embed (3->64)",
+      "cut_layer": "jedi_embed",
+      "cumulative_lut": 48459.0,
+      "marginal_lut": 48459.0,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 18.9
+    },
+    {
+      "component": "GMP (hybrid only)",
+      "cut_layer": "gmp_pointwise",
+      "cumulative_lut": 0.0,
+      "marginal_lut": -48459.0,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": -18.9
+    },
+    {
+      "component": "Sender (64->64)",
+      "cut_layer": "jedi_send",
+      "cumulative_lut": 109377.0,
+      "marginal_lut": 109377.0,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 42.6
+    },
+    {
+      "component": "Pool + receiver + add",
+      "cut_layer": "jedi_add",
+      "cumulative_lut": 147754.5,
+      "marginal_lut": 38377.5,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 14.9
+    },
+    {
+      "component": "Node2 (64->64)",
+      "cut_layer": "jedi_node2",
+      "cumulative_lut": 211842.5,
+      "marginal_lut": 64088.0,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 24.9
+    },
+    {
+      "component": "Global pool",
+      "cut_layer": "jedi_pool2",
+      "cumulative_lut": 225252.5,
+      "marginal_lut": 13410.0,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 5.2
+    },
+    {
+      "component": "Head 64",
+      "cut_layer": "jedi_head1",
+      "cumulative_lut": 238390.0,
+      "marginal_lut": 13137.5,
+      "cumulative_latency_ns": 0.0,
+      "pct_of_total": 5.1
+    },
+    {
+      "component": "Head 32",
+      "cut_layer": "jedi_head2",
+      "cumulative_lut": 250670.5,
+      "marginal_lut": 12280.5,
+      "cumulative_latency_ns": 40.0,
+      "pct_of_total": 4.8
+    },
+    {
+      "component": "Head 16",
+      "cut_layer": "jedi_head3",
+      "cumulative_lut": 255663.0,
+      "marginal_lut": 4992.5,
+      "cumulative_latency_ns": 48.0,
+      "pct_of_total": 1.9
+    },
+    {
+      "component": "Output",
+      "cut_layer": "jedi_out",
+      "cumulative_lut": 256954.0,
+      "marginal_lut": 1291.0,
+      "cumulative_latency_ns": 55.0,
+      "pct_of_total": 0.5
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "ckpt": "/data/phatjet-fpga/runs/n64-wv10/pareto/epoch=693-val_acc=0.8029-ebops=385065.keras",
+    "part": "xcvu13p-flga2577-2-e",
+    "clock_ns": 3.33,
+    "epoch": 693,
+    "ckpt_val_acc": 0.8029,
+    "ebops": 385065,
+    "solver_options": {
+      "hard_dc": 2
+    },
+    "lut_est": 487451.4,
+    "comb_latency_ns": 163.0,
+    "lut_pct_vu13p": 28.2,
+    "stages": 41,
+    "latency_ns_at_clock": 136.5,
+    "ff_est_reg_bits": 449527,
+    "ff_pct_vu13p": 13.0,
+    "dsp": 0,
+    "bram": 0,
+    "ii": 1,
+    "verilog_dir": "/data/phatjet-fpga/hw/n64wv/verilog_epoch_693_val_acc_0_8029_ebops_385065",
+    "emu_max_abs_err": 0.0,
+    "emu_argmax_match": 1.0,
+    "bit_exact": true
+  },
+  {
+    "ckpt": "/data/phatjet-fpga/runs/n64-wv10/pareto/epoch=67-val_acc=0.8035-ebops=415173.keras",
+    "part": "xcvu13p-flga2577-2-e",
+    "clock_ns": 3.33,
+    "epoch": 67,
+    "ckpt_val_acc": 0.8035,
+    "ebops": 415173,
+    "solver_options": {
+      "hard_dc": 2
+    },
+    "lut_est": 523154.49999999994,
+    "comb_latency_ns": 165.0,
+    "lut_pct_vu13p": 30.3,
+    "stages": 42,
+    "latency_ns_at_clock": 139.9,
+    "ff_est_reg_bits": 479466,
+    "ff_pct_vu13p": 13.9,
+    "dsp": 0,
+    "bram": 0,
+    "ii": 1,
+    "verilog_dir": "/data/phatjet-fpga/hw/n64wv/verilog_epoch_67_val_acc_0_8035_ebops_415173",
+    "emu_max_abs_err": 0.0,
+    "emu_argmax_match": 1.0,
+    "bit_exact": true
+  }
+]

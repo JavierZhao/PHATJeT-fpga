@@ -1,0 +1,794 @@
+frozen:
+total 134779
+drwxr-xr-x 2 root root      62 Aug  1 02:09 .
+drwxr-xr-x 7 root root      16 Jul 31 16:02 ..
+-rw-r--r-- 1 root root 2225763 Jul 31 16:02 g-ls-s3__epoch=114-val_acc=0.8092-ebops=1511023.0.keras
+-rw-r--r-- 1 root root 2225766 Jul 31 16:02 g-ls-s3__epoch=162-val_acc=0.8100-ebops=1515066.0.keras
+-rw-r--r-- 1 root root 2225766 Jul 31 16:02 g-ls-s3__epoch=276-val_acc=0.8101-ebops=1528016.0.keras
+-rw-r--r-- 1 root root 2225764 Jul 31 16:02 g-ls-s3__epoch=327-val_acc=0.8105-ebops=1530745.0.keras
+-rw-r--r-- 1 root root 2225766 Jul 31 16:02 g-ls-s3__epoch=414-val_acc=0.8101-ebops=1527476.0.keras
+-rw-r--r-- 1 root root 2225765 Jul 31 16:02 g-ls-s3__epoch=501-val_acc=0.8105-ebops=1531753.0.keras
+-rw-r--r-- 1 root root 2225765 Jul 31 16:02 g-ls-s3__epoch=502-val_acc=0.8109-ebops=1542299.0.keras
+-rw-r--r-- 1 root root 2225766 Jul 31 16:02 g-ls-s3__epoch=503-val_acc=0.8107-ebops=1541329.0.keras
+-rw-r--r-- 1 root root 2225766 Jul 31 20:05 g-ls-s3__epoch=583-val_acc=0.8105-ebops=1530250.0.keras
+-rw-r--r-- 1 root root 2225361 Jul 31 16:02 g-nopress__epoch=124-val_acc=0.8095-ebops=1572624.keras
+-rw-r--r-- 1 root root 2225361 Jul 31 16:02 g-nopress__epoch=249-val_acc=0.8103-ebops=1653026.keras
+-rw-r--r-- 1 root root 2225362 Jul 31 16:02 g-nopress__epoch=25-val_acc=0.8093-ebops=1549758.keras
+-rw-r--r-- 1 root root 2225362 Jul 31 16:02 g-nopress__epoch=283-val_acc=0.8098-ebops=1616300.keras
+-rw-r--r-- 1 root root 2225362 Jul 31 16:02 g-nopress__epoch=284-val_acc=0.8098-ebops=1616409.keras
+-rw-r--r-- 1 root root 2225362 Jul 31 16:02 g-nopress__epoch=289-val_acc=0.8096-ebops=1615922.keras
+-rw-r--r-- 1 root root 2225362 Jul 31 16:02 g-nopress__epoch=3-val_acc=0.8085-ebops=1539693.keras
+-rw-r--r-- 1 root root 2225361 Jul 31 20:05 g-nopress__epoch=334-val_acc=0.8104-ebops=1669356.keras
+-rw-r--r-- 1 root root 2225362 Jul 31 16:02 g-nopress__epoch=35-val_acc=0.8091-ebops=1549121.keras
+-rw-r--r-- 1 root root 2225362 Jul 31 20:05 g-nopress__epoch=370-val_acc=0.8104-ebops=1692236.keras
+-rw-r--r-- 1 root root 2225362 Jul 31 20:05 g-nopress__epoch=371-val_acc=0.8105-ebops=1692537.keras
+-rw-r--r-- 1 root root 2225360 Jul 31 20:05 g-nopress__epoch=374-val_acc=0.8104-ebops=1692167.keras
+-rw-r--r-- 1 root root 2225361 Jul 31 20:05 g-nopress__epoch=375-val_acc=0.8104-ebops=1692150.keras
+-rw-r--r-- 1 root root 2225361 Jul 31 16:02 g-nopress__epoch=39-val_acc=0.8094-ebops=1549921.keras
+-rw-r--r-- 1 root root 2225360 Jul 31 20:05 g-nopress__epoch=416-val_acc=0.8105-ebops=1702449.keras
+-rw-r--r-- 1 root root 2225361 Jul 31 20:05 g-nopress__epoch=417-val_acc=0.8109-ebops=1702849.keras
+-rw-r--r-- 1 root root 2225362 Jul 31 16:02 g-nopress__epoch=6-val_acc=0.8089-ebops=1543162.keras
+-rw-r--r-- 1 root root 2225361 Jul 31 16:02 g-nopress__epoch=81-val_acc=0.8095-ebops=1561837.keras
+-rw-r--r-- 1 root root 2225765 Jul 31 16:02 g-x1__epoch=23-val_acc=0.8097-ebops=1513600.0.keras
+-rw-r--r-- 1 root root 2225766 Jul 31 16:02 g-x1__epoch=245-val_acc=0.8097-ebops=1522698.0.keras
+-rw-r--r-- 1 root root 2225765 Jul 31 16:02 g-x1__epoch=324-val_acc=0.8092-ebops=1499290.0.keras
+-rw-r--r-- 1 root root 2225765 Jul 31 20:05 g-x1__epoch=449-val_acc=0.8101-ebops=1537562.0.keras
+-rw-r--r-- 1 root root 2225765 Jul 31 20:05 g-x1__epoch=451-val_acc=0.8095-ebops=1502607.0.keras
+-rw-r--r-- 1 root root 2225766 Jul 31 20:05 g-x1__epoch=462-val_acc=0.8100-ebops=1518212.0.keras
+-rw-r--r-- 1 root root 2225765 Jul 31 20:05 g-x1__epoch=463-val_acc=0.8098-ebops=1516375.0.keras
+-rw-r--r-- 1 root root 2225766 Jul 31 20:05 g-x1__epoch=485-val_acc=0.8097-ebops=1511973.0.keras
+-rw-r--r-- 1 root root 2225766 Jul 31 20:05 g-x1__epoch=486-val_acc=0.8100-ebops=1537193.0.keras
+-rw-r--r-- 1 root root 2225766 Aug  1 02:09 g-x1__epoch=494-val_acc=0.8101-ebops=1528110.0.keras
+-rw-r--r-- 1 root root 2225765 Aug  1 02:09 g-x1__epoch=592-val_acc=0.8101-ebops=1515170.0.keras
+-rw-r--r-- 1 root root 2225765 Aug  1 02:09 g-x1__epoch=594-val_acc=0.8097-ebops=1509969.0.keras
+-rw-r--r-- 1 root root 2225764 Aug  1 02:09 g-x1__epoch=610-val_acc=0.8101-ebops=1519375.0.keras
+-rw-r--r-- 1 root root 2225766 Aug  1 02:09 g-x1__epoch=643-val_acc=0.8100-ebops=1510909.0.keras
+-rw-r--r-- 1 root root 2225766 Aug  1 02:09 g-x1__epoch=662-val_acc=0.8103-ebops=1535868.0.keras
+-rw-r--r-- 1 root root 2225766 Aug  1 02:09 g-x1__epoch=712-val_acc=0.8101-ebops=1531486.0.keras
+-rw-r--r-- 1 root root 2225764 Jul 31 16:02 g-x3__epoch=139-val_acc=0.8098-ebops=1529510.0.keras
+-rw-r--r-- 1 root root 2225764 Jul 31 16:02 g-x3__epoch=153-val_acc=0.8102-ebops=1529736.0.keras
+-rw-r--r-- 1 root root 2225764 Jul 31 16:02 g-x3__epoch=167-val_acc=0.8103-ebops=1535995.0.keras
+-rw-r--r-- 1 root root 2225765 Jul 31 16:02 g-x3__epoch=28-val_acc=0.7939-ebops=1510507.0.keras
+-rw-r--r-- 1 root root 2225766 Jul 31 16:02 g-x3__epoch=68-val_acc=0.8097-ebops=1520347.0.keras
+-rw-r--r-- 1 root root 2225764 Jul 31 16:02 g-x3__epoch=69-val_acc=0.8094-ebops=1512490.0.keras
+-rw-r--r-- 1 root root 2225764 Jul 31 16:02 g-x4__epoch=373-val_acc=0.8099-ebops=1511684.0.keras
+-rw-r--r-- 1 root root 2225764 Jul 31 16:02 g-x4__epoch=394-val_acc=0.8095-ebops=1499312.0.keras
+-rw-r--r-- 1 root root 2225763 Jul 31 16:02 g-x4__epoch=395-val_acc=0.8095-ebops=1504304.0.keras
+-rw-r--r-- 1 root root 2225765 Jul 31 16:02 g-x4__epoch=398-val_acc=0.8096-ebops=1504648.0.keras
+-rw-r--r-- 1 root root 2225764 Jul 31 16:02 g-x4__epoch=412-val_acc=0.8097-ebops=1506219.0.keras
+-rw-r--r-- 1 root root 2225764 Jul 31 16:02 g-x4__epoch=415-val_acc=0.8097-ebops=1506344.0.keras
+-rw-r--r-- 1 root root 2225765 Jul 31 16:02 g-x4__epoch=418-val_acc=0.8097-ebops=1506566.0.keras
+-rw-r--r-- 1 root root 2225763 Jul 31 20:05 g-x4__epoch=577-val_acc=0.8100-ebops=1509146.0.keras
+-rw-r--r-- 1 root root 2225765 Jul 31 20:05 g-x4__epoch=644-val_acc=0.8099-ebops=1508297.0.keras
+-rw-r--r-- 1 root root 2225765 Jul 31 20:05 g-x4__epoch=652-val_acc=0.8101-ebops=1511125.0.keras
+-rw-r--r-- 1 root root 2225765 Jul 31 20:05 g-x4__epoch=666-val_acc=0.8099-ebops=1507569.0.keras
+-rw-r--r-- 1 root root 2225765 Jul 31 20:05 g-x4__epoch=669-val_acc=0.8103-ebops=1511149.0.keras
+-rw-r--r-- 1 root root 2225763 Aug  1 02:09 g-x4__epoch=741-val_acc=0.8101-ebops=1506833.0.keras
+
+teachers:
+total 222
+drwxr-xr-x 4 root root      3 Jul 30 02:34 .
+drwxr-xr-x 7 root root     16 Jul 31 16:02 ..
+drwxr-xr-x 2 root root      3 Jul 26 08:12 f64
+-rw-r--r-- 1 root root 227262 Jul 26 07:54 float_n64_frozen.keras
+drwxr-xr-x 2 root root      3 Jul 30 07:36 rich128
+== runs/abl-bn-tanh/
+epoch=496-val_acc=0.7968-ebops=3922336.keras
+epoch=419-val_acc=0.7972-ebops=4481616.keras
+epoch=350-val_acc=0.8014-ebops=5003381.keras
+== runs/abl-bn/
+epoch=483-val_acc=0.8057-ebops=4484673.keras
+epoch=279-val_acc=0.8068-ebops=7188557.keras
+epoch=281-val_acc=0.8079-ebops=7253467.keras
+== runs/abl-neither/
+epoch=421-val_acc=0.8025-ebops=5517778.keras
+epoch=349-val_acc=0.8038-ebops=6279858.keras
+epoch=352-val_acc=0.8050-ebops=6323519.keras
+== runs/abl-none/
+epoch=139-val_acc=0.8031-ebops=16968599.keras
+epoch=140-val_acc=0.8031-ebops=16986382.keras
+epoch=141-val_acc=0.8031-ebops=16904598.keras
+== runs/abl-tanh/
+epoch=566-val_acc=0.8052-ebops=3224809.keras
+epoch=567-val_acc=0.8057-ebops=3225360.keras
+epoch=565-val_acc=0.8064-ebops=3232571.keras
+== runs/attn2/
+epoch=9-val_acc=0.7626-ebops=40661660.keras
+== runs/attn3/
+epoch=320-val_acc=0.8050-ebops=5544271.keras
+epoch=279-val_acc=0.8054-ebops=6160156.keras
+epoch=271-val_acc=0.8086-ebops=6180269.keras
+== runs/attnl1-1e4/
+epoch=638-val_acc=0.7933-ebops=867257.keras
+epoch=632-val_acc=0.7934-ebops=877352.keras
+epoch=567-val_acc=0.7940-ebops=886406.keras
+== runs/attnl1-3e5/
+epoch=705-val_acc=0.7999-ebops=1046564.keras
+epoch=637-val_acc=0.8000-ebops=1116880.keras
+epoch=630-val_acc=0.8002-ebops=1119311.keras
+== runs/attnl1-hi/
+epoch=493-val_acc=0.8035-ebops=1511608.keras
+epoch=487-val_acc=0.8036-ebops=1548549.keras
+epoch=481-val_acc=0.8037-ebops=1573448.keras
+== runs/attnl1-mid/
+epoch=766-val_acc=0.8060-ebops=1726869.keras
+epoch=755-val_acc=0.8062-ebops=1796453.keras
+epoch=701-val_acc=0.8071-ebops=1919382.keras
+== runs/best-b01/
+epoch=335-val_acc=0.7908-ebops=1459078.keras
+epoch=351-val_acc=0.7928-ebops=1475066.keras
+epoch=333-val_acc=0.7940-ebops=1477602.keras
+== runs/best-d8/
+epoch=920-val_acc=0.7870-ebops=1371122.keras
+epoch=848-val_acc=0.7886-ebops=1467029.keras
+epoch=851-val_acc=0.7886-ebops=1511044.keras
+== runs/best-n64/
+epoch=566-val_acc=0.8087-ebops=2087775.keras
+epoch=558-val_acc=0.8088-ebops=2096740.keras
+epoch=565-val_acc=0.8090-ebops=2104727.keras
+== runs/best/
+epoch=171-val_acc=0.7982-ebops=8560766.keras
+epoch=141-val_acc=0.8041-ebops=10490297.keras
+epoch=140-val_acc=0.8043-ebops=10585662.keras
+== runs/bw4/
+epoch=16-val_acc=0.7349-ebops=16788009.keras
+epoch=15-val_acc=0.7762-ebops=17368722.keras
+== runs/combo-b01/
+== runs/combo-d8/
+epoch=920-val_acc=0.7815-ebops=1339898.keras
+epoch=780-val_acc=0.7833-ebops=1507536.keras
+epoch=49-val_acc=0.7871-ebops=7634422.keras
+== runs/combo/
+epoch=425-val_acc=0.8064-ebops=3802683.keras
+epoch=423-val_acc=0.8088-ebops=3807002.keras
+epoch=347-val_acc=0.8109-ebops=4346684.keras
+== runs/d8/
+epoch=346-val_acc=0.7372-ebops=3674796.keras
+epoch=345-val_acc=0.7893-ebops=3681544.keras
+epoch=351-val_acc=0.7969-ebops=3708780.keras
+== runs/dev90/
+epoch=821-val_acc=0.8042-ebops=672392.0.keras
+epoch=855-val_acc=0.8047-ebops=672823.0.keras
+epoch=823-val_acc=0.8055-ebops=698794.0.keras
+== runs/dev90cap/
+epoch=1183-val_acc=0.8006-ebops=951757.0.keras
+epoch=1373-val_acc=0.8022-ebops=953661.0.keras
+epoch=1369-val_acc=0.8024-ebops=975139.0.keras
+== runs/ffn1/
+epoch=266-val_acc=0.8044-ebops=5113714.keras
+epoch=205-val_acc=0.8077-ebops=6106498.keras
+epoch=204-val_acc=0.8083-ebops=6114574.keras
+== runs/fit-a/
+epoch=418-val_acc=0.8013-ebops=1718768.keras
+epoch=425-val_acc=0.8017-ebops=1739744.keras
+epoch=411-val_acc=0.8031-ebops=1800946.keras
+== runs/fit-b/
+epoch=707-val_acc=0.8056-ebops=1662049.keras
+epoch=632-val_acc=0.8060-ebops=1814183.keras
+epoch=566-val_acc=0.8062-ebops=1990263.keras
+== runs/fit-n64-hi/
+epoch=706-val_acc=0.8049-ebops=980142.keras
+epoch=708-val_acc=0.8052-ebops=985337.keras
+epoch=709-val_acc=0.8060-ebops=987338.keras
+== runs/fit-n64/
+epoch=830-val_acc=0.8044-ebops=1287665.keras
+epoch=698-val_acc=0.8058-ebops=1530346.keras
+epoch=708-val_acc=0.8073-ebops=1533151.keras
+== runs/float-ref/
+== runs/g-bw10/
+epoch=0-val_acc=0.6376-ebops=90998893.0.keras
+== runs/g-cap/
+epoch=1-val_acc=0.8048-ebops=473478719.0.keras
+== runs/g-cont/
+== runs/g-d32/
+epoch=2-val_acc=0.8016-ebops=1002030.0.keras
+epoch=6-val_acc=0.8022-ebops=1022037.0.keras
+epoch=15-val_acc=0.8024-ebops=1056207.0.keras
+== runs/g-f16/
+== runs/g-f16q/
+epoch=108-val_acc=0.8037-ebops=12241324.0.keras
+epoch=70-val_acc=0.8168-ebops=14878860.0.keras
+epoch=68-val_acc=0.8169-ebops=15028582.0.keras
+== runs/g-f16qc/
+epoch=10-val_acc=0.8134-ebops=12757848.0.keras
+epoch=7-val_acc=0.8135-ebops=13368987.0.keras
+epoch=6-val_acc=0.8139-ebops=13567267.0.keras
+== runs/g-ffn4/
+epoch=0-val_acc=0.6338-ebops=47477982.0.keras
+epoch=2-val_acc=0.6967-ebops=47494005.0.keras
+== runs/g-free/
+== runs/g-grow/
+epoch=5-val_acc=0.8089-ebops=1528232.0.keras
+epoch=27-val_acc=0.8092-ebops=1532142.0.keras
+epoch=2-val_acc=0.8093-ebops=1535120.0.keras
+== runs/g-grow2/
+epoch=3-val_acc=0.8048-ebops=1517341.0.keras
+epoch=16-val_acc=0.8091-ebops=1517569.0.keras
+== runs/g-lowlr/
+epoch=28-val_acc=0.8093-ebops=1529216.0.keras
+epoch=33-val_acc=0.8093-ebops=1533909.0.keras
+epoch=76-val_acc=0.8095-ebops=1535542.0.keras
+== runs/g-ls-s2/
+epoch=30-val_acc=0.8089-ebops=1515932.0.keras
+epoch=25-val_acc=0.8091-ebops=1535677.0.keras
+epoch=32-val_acc=0.8092-ebops=1535989.0.keras
+== runs/g-ls-s3/
+epoch=583-val_acc=0.8105-ebops=1530250.0.keras
+epoch=503-val_acc=0.8107-ebops=1541329.0.keras
+epoch=502-val_acc=0.8109-ebops=1542299.0.keras
+== runs/g-ls-s4/
+epoch=5-val_acc=0.8082-ebops=1534353.0.keras
+epoch=13-val_acc=0.8087-ebops=1537490.0.keras
+epoch=17-val_acc=0.8088-ebops=1540658.0.keras
+== runs/g-ls/
+epoch=141-val_acc=0.8094-ebops=1531559.0.keras
+epoch=33-val_acc=0.8094-ebops=1534236.0.keras
+epoch=27-val_acc=0.8096-ebops=1535567.0.keras
+== runs/g-nopress/
+epoch=371-val_acc=0.8105-ebops=1692537.keras
+epoch=416-val_acc=0.8105-ebops=1702449.keras
+epoch=417-val_acc=0.8109-ebops=1702849.keras
+== runs/g-pid/
+epoch=8-val_acc=0.8075-ebops=1554720.0.keras
+epoch=39-val_acc=0.8089-ebops=1558653.0.keras
+epoch=38-val_acc=0.8092-ebops=1559133.0.keras
+== runs/g-pid2/
+epoch=4-val_acc=0.7970-ebops=1516797.0.keras
+epoch=6-val_acc=0.8001-ebops=1523679.0.keras
+epoch=7-val_acc=0.8008-ebops=1534715.0.keras
+== runs/g-x1/
+epoch=1172-val_acc=0.8111-ebops=1544601.0.keras
+epoch=1140-val_acc=0.8112-ebops=1546987.0.keras
+epoch=1141-val_acc=0.8114-ebops=1548282.0.keras
+== runs/g-x3/
+epoch=139-val_acc=0.8098-ebops=1529510.0.keras
+epoch=153-val_acc=0.8102-ebops=1529736.0.keras
+epoch=167-val_acc=0.8103-ebops=1535995.0.keras
+== runs/g-x4/
+epoch=418-val_acc=0.8097-ebops=1506566.0.keras
+epoch=741-val_acc=0.8101-ebops=1506833.0.keras
+epoch=669-val_acc=0.8103-ebops=1511149.0.keras
+== runs/h1/
+epoch=421-val_acc=0.7981-ebops=3869113.keras
+epoch=349-val_acc=0.8030-ebops=4527894.keras
+epoch=277-val_acc=0.8034-ebops=5650576.keras
+== runs/n128-best/
+epoch=992-val_acc=0.7985-ebops=663922.keras
+epoch=990-val_acc=0.8005-ebops=698091.keras
+epoch=993-val_acc=0.8005-ebops=666359.keras
+== runs/n128-budget500/
+epoch=9-val_acc=0.7303-ebops=28642631.0.keras
+epoch=8-val_acc=0.7304-ebops=28913594.0.keras
+== runs/n128-core7-sat/
+epoch=633-val_acc=0.8005-ebops=1113934.keras
+epoch=621-val_acc=0.8008-ebops=1127544.keras
+epoch=622-val_acc=0.8010-ebops=1127947.keras
+== runs/n128-core7/
+epoch=993-val_acc=0.8010-ebops=619284.keras
+epoch=991-val_acc=0.8013-ebops=620367.keras
+epoch=984-val_acc=0.8020-ebops=626709.keras
+== runs/n128-d32/
+epoch=766-val_acc=0.7994-ebops=1223481.keras
+epoch=709-val_acc=0.8006-ebops=1332877.keras
+epoch=691-val_acc=0.8007-ebops=1373837.keras
+== runs/n128-d32wv/
+epoch=532-val_acc=0.7996-ebops=1805614.keras
+epoch=495-val_acc=0.7997-ebops=2100604.keras
+epoch=496-val_acc=0.8009-ebops=2122814.keras
+== runs/n128-fullin/
+epoch=912-val_acc=0.7963-ebops=658150.keras
+epoch=847-val_acc=0.7965-ebops=711055.keras
+epoch=283-val_acc=0.7982-ebops=1702230.keras
+== runs/n128-fullinrich/
+epoch=140-val_acc=0.8058-ebops=6161412.keras
+epoch=134-val_acc=0.8059-ebops=6365878.keras
+epoch=137-val_acc=0.8059-ebops=6302406.keras
+== runs/n128-gmp2/
+epoch=984-val_acc=0.7967-ebops=744149.keras
+epoch=919-val_acc=0.7972-ebops=782597.keras
+epoch=847-val_acc=0.7973-ebops=901684.keras
+== runs/n128-h1p/
+epoch=850-val_acc=0.7986-ebops=693090.keras
+epoch=848-val_acc=0.7991-ebops=694397.keras
+epoch=843-val_acc=0.7993-ebops=702078.keras
+== runs/n128-jedi/
+epoch=424-val_acc=0.8007-ebops=144386.keras
+epoch=340-val_acc=0.8014-ebops=183026.keras
+epoch=210-val_acc=0.8048-ebops=351152.keras
+== runs/n128-jedi7k/
+epoch=392-val_acc=0.8114-ebops=497136.keras
+epoch=352-val_acc=0.8124-ebops=516063.keras
+epoch=383-val_acc=0.8124-ebops=499216.keras
+== runs/n128-jediaz/
+epoch=484-val_acc=0.7995-ebops=119126.keras
+epoch=495-val_acc=0.8079-ebops=119346.keras
+epoch=283-val_acc=0.8109-ebops=224212.keras
+== runs/n128-jedigmp/
+epoch=399-val_acc=0.8035-ebops=154592.keras
+epoch=211-val_acc=0.8040-ebops=317386.keras
+epoch=202-val_acc=0.8048-ebops=326970.keras
+== runs/n128-jedigmps2/
+epoch=324-val_acc=0.8038-ebops=184089.keras
+epoch=250-val_acc=0.8039-ebops=239578.keras
+epoch=208-val_acc=0.8063-ebops=309187.keras
+== runs/n128-jedis2/
+epoch=423-val_acc=0.7889-ebops=137452.keras
+epoch=436-val_acc=0.8023-ebops=137996.keras
+epoch=411-val_acc=0.8042-ebops=140558.keras
+== runs/n128-jediz/
+epoch=489-val_acc=0.8021-ebops=119880.keras
+epoch=334-val_acc=0.8023-ebops=185268.keras
+epoch=272-val_acc=0.8043-ebops=220628.keras
+== runs/n128-linf/
+epoch=34-val_acc=0.7673-ebops=6997054.keras
+epoch=33-val_acc=0.7683-ebops=7293035.keras
+epoch=30-val_acc=0.7688-ebops=8174087.keras
+== runs/n128-nogmp/
+epoch=850-val_acc=0.7948-ebops=941360.keras
+epoch=833-val_acc=0.7954-ebops=990630.keras
+epoch=780-val_acc=0.7958-ebops=1057280.keras
+== runs/n128-phatlin/
+epoch=987-val_acc=0.7966-ebops=719923.keras
+epoch=993-val_acc=0.7967-ebops=721138.keras
+epoch=846-val_acc=0.7971-ebops=761246.keras
+== runs/n128-phatrich/
+epoch=997-val_acc=0.7946-ebops=799519.keras
+epoch=990-val_acc=0.8035-ebops=804355.keras
+epoch=764-val_acc=0.8045-ebops=975441.keras
+== runs/n128-phatrichc/
+epoch=342-val_acc=0.8032-ebops=719684.0.keras
+epoch=64-val_acc=0.8033-ebops=813727.0.keras
+epoch=70-val_acc=0.8036-ebops=830808.0.keras
+== runs/n128-pid/
+epoch=901-val_acc=0.7988-ebops=494497.0.keras
+epoch=700-val_acc=0.7991-ebops=538912.0.keras
+epoch=419-val_acc=0.7995-ebops=546677.0.keras
+== runs/n128-pn64/
+epoch=137-val_acc=0.7872-ebops=5134929.keras
+epoch=993-val_acc=0.7878-ebops=793034.keras
+epoch=986-val_acc=0.7887-ebops=799796.keras
+== runs/n128-pnz/
+epoch=92-val_acc=0.7883-ebops=5606453.keras
+epoch=89-val_acc=0.7905-ebops=5713422.keras
+epoch=70-val_acc=0.7916-ebops=7235102.keras
+== runs/n128-ramp-ctl/
+epoch=267-val_acc=0.7646-ebops=376283.keras
+epoch=263-val_acc=0.7649-ebops=381077.keras
+epoch=132-val_acc=0.7654-ebops=549383.keras
+== runs/n128-ramp-prot/
+== runs/n128-ramp-protb/
+epoch=181-val_acc=0.7718-ebops=628974.keras
+epoch=185-val_acc=0.7750-ebops=645910.keras
+epoch=131-val_acc=0.7781-ebops=706867.keras
+== runs/n128-relu/
+epoch=708-val_acc=0.7971-ebops=414339.keras
+epoch=702-val_acc=0.7974-ebops=416520.keras
+epoch=700-val_acc=0.7979-ebops=416581.keras
+== runs/n128-richlin/
+epoch=992-val_acc=0.8014-ebops=782438.keras
+epoch=917-val_acc=0.8022-ebops=805158.keras
+epoch=918-val_acc=0.8025-ebops=841371.keras
+== runs/n128-sat-notanh/
+epoch=709-val_acc=0.8013-ebops=1026837.keras
+epoch=638-val_acc=0.8014-ebops=1154672.keras
+epoch=494-val_acc=0.8031-ebops=1444212.keras
+== runs/n128-sat/
+epoch=634-val_acc=0.8010-ebops=1153212.keras
+epoch=567-val_acc=0.8017-ebops=1283949.keras
+epoch=566-val_acc=0.8021-ebops=1284425.keras
+== runs/n128-satb/
+epoch=627-val_acc=0.7830-ebops=3269404.keras
+epoch=622-val_acc=0.7832-ebops=3280129.keras
+epoch=623-val_acc=0.7845-ebops=3285887.keras
+== runs/n128-seed2/
+epoch=916-val_acc=0.8008-ebops=669992.keras
+epoch=906-val_acc=0.8013-ebops=677451.keras
+epoch=917-val_acc=0.8018-ebops=682774.keras
+== runs/n128-seed2c/
+epoch=280-val_acc=0.8015-ebops=565847.0.keras
+epoch=268-val_acc=0.8022-ebops=569864.0.keras
+epoch=274-val_acc=0.8023-ebops=595860.0.keras
+== runs/n128-sig/
+== runs/n128-tbl/
+epoch=777-val_acc=0.7995-ebops=851084.keras
+epoch=631-val_acc=0.8000-ebops=948484.keras
+epoch=629-val_acc=0.8012-ebops=949948.keras
+== runs/n128-wv10/
+epoch=69-val_acc=0.7979-ebops=499386.keras
+epoch=66-val_acc=0.7988-ebops=500332.keras
+epoch=64-val_acc=0.7990-ebops=502148.keras
+== runs/n128-wv3/
+epoch=54-val_acc=0.7968-ebops=479014.keras
+epoch=65-val_acc=0.7973-ebops=502728.keras
+epoch=55-val_acc=0.7983-ebops=507042.keras
+== runs/n128-wv30/
+epoch=140-val_acc=0.7984-ebops=491167.keras
+epoch=66-val_acc=0.7984-ebops=499505.keras
+epoch=65-val_acc=0.7988-ebops=500972.keras
+== runs/n128-wvpid/
+epoch=564-val_acc=0.7948-ebops=392927.0.keras
+epoch=562-val_acc=0.7959-ebops=393161.0.keras
+epoch=565-val_acc=0.7961-ebops=393279.0.keras
+== runs/n128-wvpid2/
+epoch=682-val_acc=0.7957-ebops=389984.0.keras
+epoch=683-val_acc=0.7957-ebops=391366.0.keras
+epoch=265-val_acc=0.7965-ebops=399764.0.keras
+== runs/n128-wvs2/
+epoch=56-val_acc=0.7885-ebops=468128.keras
+epoch=27-val_acc=0.7931-ebops=471548.keras
+epoch=33-val_acc=0.7947-ebops=474586.keras
+== runs/n128a/
+epoch=849-val_acc=0.7992-ebops=962022.keras
+epoch=851-val_acc=0.7992-ebops=967693.keras
+epoch=698-val_acc=0.7993-ebops=1122285.keras
+== runs/n128r-core7/
+epoch=838-val_acc=0.7951-ebops=790987.keras
+epoch=917-val_acc=0.7951-ebops=759443.keras
+epoch=846-val_acc=0.7953-ebops=818189.keras
+== runs/n128r-uni/
+epoch=991-val_acc=0.7932-ebops=745262.keras
+epoch=978-val_acc=0.7933-ebops=753909.keras
+epoch=990-val_acc=0.7947-ebops=755942.keras
+== runs/n150-all/
+epoch=352-val_acc=0.7909-ebops=504600.keras
+epoch=353-val_acc=0.7913-ebops=511362.keras
+epoch=269-val_acc=0.7922-ebops=565156.keras
+== runs/n150-both/
+epoch=270-val_acc=0.7930-ebops=789736.keras
+epoch=271-val_acc=0.7933-ebops=796320.keras
+epoch=267-val_acc=0.7934-ebops=797207.keras
+== runs/n150-ffnl1/
+epoch=448-val_acc=0.7929-ebops=967565.keras
+epoch=415-val_acc=0.7934-ebops=975792.keras
+epoch=423-val_acc=0.7937-ebops=1024812.keras
+== runs/n150-sat/
+== runs/n16-b01/
+epoch=489-val_acc=0.7349-ebops=452652.keras
+epoch=482-val_acc=0.7360-ebops=456769.keras
+epoch=353-val_acc=0.7363-ebops=549312.keras
+== runs/n16-d12/
+== runs/n16-ktc/
+epoch=136-val_acc=0.7237-ebops=399010.0.keras
+epoch=125-val_acc=0.7247-ebops=399305.0.keras
+epoch=126-val_acc=0.7248-ebops=400133.0.keras
+== runs/n16-mod/
+epoch=277-val_acc=0.7304-ebops=726960.keras
+epoch=140-val_acc=0.7307-ebops=1563795.keras
+epoch=139-val_acc=0.7309-ebops=1575652.keras
+== runs/n16-modpt/
+epoch=135-val_acc=0.7108-ebops=1638177.keras
+epoch=92-val_acc=0.7110-ebops=1743802.keras
+epoch=89-val_acc=0.7127-ebops=1771198.keras
+== runs/n16-p4/
+epoch=208-val_acc=0.7128-ebops=1323276.keras
+epoch=137-val_acc=0.7186-ebops=1560275.keras
+epoch=141-val_acc=0.7186-ebops=1529575.keras
+== runs/n16-ptc/
+epoch=256-val_acc=0.7037-ebops=474495.0.keras
+epoch=140-val_acc=0.7041-ebops=487340.0.keras
+epoch=136-val_acc=0.7051-ebops=487670.0.keras
+== runs/n16/
+epoch=985-val_acc=0.7402-ebops=607901.keras
+epoch=917-val_acc=0.7405-ebops=648062.keras
+epoch=906-val_acc=0.7407-ebops=661515.keras
+== runs/n32-best-b01/
+epoch=352-val_acc=0.7890-ebops=861423.keras
+epoch=141-val_acc=0.7897-ebops=2000100.keras
+epoch=140-val_acc=0.7901-ebops=2021659.keras
+== runs/n32-best/
+epoch=846-val_acc=0.7921-ebops=989435.keras
+epoch=845-val_acc=0.7922-ebops=999505.keras
+epoch=841-val_acc=0.7924-ebops=1001374.keras
+== runs/n32-d12/
+epoch=141-val_acc=0.7473-ebops=1626440.keras
+epoch=134-val_acc=0.7495-ebops=1703321.keras
+epoch=140-val_acc=0.7495-ebops=1640431.keras
+== runs/n32-mod/
+epoch=141-val_acc=0.7838-ebops=2377338.keras
+epoch=140-val_acc=0.7848-ebops=2398844.keras
+epoch=139-val_acc=0.7854-ebops=2428695.keras
+== runs/n32-modpt/
+epoch=192-val_acc=0.7708-ebops=2394189.keras
+epoch=189-val_acc=0.7713-ebops=2403626.keras
+epoch=141-val_acc=0.7719-ebops=2613945.keras
+== runs/n32-p4/
+epoch=491-val_acc=0.7760-ebops=989610.keras
+epoch=192-val_acc=0.7765-ebops=2280683.keras
+epoch=140-val_acc=0.7778-ebops=2657495.keras
+== runs/n32-p4c/
+epoch=280-val_acc=0.7688-ebops=485190.0.keras
+epoch=277-val_acc=0.7695-ebops=487290.0.keras
+epoch=283-val_acc=0.7704-ebops=489899.0.keras
+== runs/n32/
+epoch=780-val_acc=0.7937-ebops=1523468.keras
+epoch=760-val_acc=0.7944-ebops=1574762.keras
+epoch=638-val_acc=0.7962-ebops=1839696.keras
+== runs/n64-all/
+epoch=418-val_acc=0.8003-ebops=483282.keras
+epoch=354-val_acc=0.8006-ebops=549861.keras
+epoch=420-val_acc=0.8006-ebops=497815.keras
+== runs/n64-avl1/
+epoch=848-val_acc=0.7945-ebops=391989.keras
+epoch=635-val_acc=0.8001-ebops=442524.keras
+epoch=636-val_acc=0.8003-ebops=442655.keras
+== runs/n64-blk/
+epoch=851-val_acc=0.8040-ebops=595734.keras
+epoch=566-val_acc=0.8044-ebops=785455.keras
+epoch=563-val_acc=0.8048-ebops=809875.keras
+== runs/n64-blk2/
+epoch=766-val_acc=0.7947-ebops=542943.keras
+epoch=767-val_acc=0.7954-ebops=554852.keras
+epoch=562-val_acc=0.7955-ebops=673330.keras
+== runs/n64-both/
+epoch=480-val_acc=0.7955-ebops=605724.keras
+epoch=470-val_acc=0.7958-ebops=613060.keras
+epoch=475-val_acc=0.7968-ebops=615657.keras
+== runs/n64-budget350/
+epoch=9-val_acc=0.7349-ebops=15084545.0.keras
+epoch=8-val_acc=0.7403-ebops=15174250.0.keras
+epoch=9-val_acc=0.7439-ebops=15076615.0.keras
+== runs/n64-cont/
+epoch=843-val_acc=0.8025-ebops=419953.keras
+epoch=845-val_acc=0.8029-ebops=423976.keras
+epoch=830-val_acc=0.8032-ebops=427773.keras
+== runs/n64-core7/
+epoch=346-val_acc=0.7987-ebops=1013893.keras
+epoch=178-val_acc=0.7991-ebops=2997105.keras
+epoch=141-val_acc=0.8011-ebops=3181473.keras
+== runs/n64-core7v2-mask/
+epoch=479-val_acc=0.7962-ebops=1190667.keras
+epoch=340-val_acc=0.7976-ebops=1343217.keras
+epoch=338-val_acc=0.7977-ebops=1352977.keras
+== runs/n64-core7v2/
+epoch=976-val_acc=0.7971-ebops=528974.keras
+epoch=979-val_acc=0.7978-ebops=534954.keras
+epoch=141-val_acc=0.7988-ebops=3107377.keras
+== runs/n64-distill/
+epoch=819-val_acc=0.7671-ebops=554155.keras
+epoch=820-val_acc=0.7673-ebops=569793.keras
+epoch=816-val_acc=0.7677-ebops=577121.keras
+== runs/n64-distill2/
+epoch=159-val_acc=0.7996-ebops=4743468.keras
+epoch=178-val_acc=0.7996-ebops=4064519.keras
+epoch=141-val_acc=0.8016-ebops=4837548.keras
+== runs/n64-distill3/
+epoch=990-val_acc=0.8034-ebops=753424.keras
+epoch=975-val_acc=0.8035-ebops=774990.keras
+epoch=988-val_acc=0.8035-ebops=764381.keras
+== runs/n64-distill3c/
+epoch=132-val_acc=0.8032-ebops=705440.0.keras
+epoch=134-val_acc=0.8032-ebops=706932.0.keras
+epoch=126-val_acc=0.8038-ebops=709624.0.keras
+== runs/n64-ffn1e4/
+epoch=987-val_acc=0.8012-ebops=572533.keras
+epoch=919-val_acc=0.8017-ebops=589177.keras
+epoch=922-val_acc=0.8019-ebops=602976.keras
+== runs/n64-ffnl1/
+epoch=993-val_acc=0.8021-ebops=545678.keras
+epoch=992-val_acc=0.8043-ebops=549717.keras
+epoch=780-val_acc=0.8049-ebops=665203.keras
+== runs/n64-ffnl1hi/
+epoch=851-val_acc=0.8034-ebops=624709.keras
+epoch=773-val_acc=0.8035-ebops=664576.keras
+epoch=779-val_acc=0.8035-ebops=662342.keras
+== runs/n64-floor1e4/
+epoch=496-val_acc=0.7956-ebops=1345700.keras
+epoch=493-val_acc=0.7957-ebops=1348766.keras
+epoch=487-val_acc=0.7958-ebops=1359491.keras
+== runs/n64-gmp16b/
+epoch=985-val_acc=0.7963-ebops=572211.keras
+epoch=979-val_acc=0.7969-ebops=578539.keras
+epoch=981-val_acc=0.7973-ebops=581324.keras
+== runs/n64-gmpk5/
+epoch=180-val_acc=0.7953-ebops=3223448.keras
+epoch=141-val_acc=0.8011-ebops=3699385.keras
+epoch=140-val_acc=0.8016-ebops=3746843.keras
+== runs/n64-h1p/
+epoch=779-val_acc=0.7973-ebops=655891.keras
+epoch=768-val_acc=0.7975-ebops=658806.keras
+epoch=769-val_acc=0.7980-ebops=665109.keras
+== runs/n64-hyb-sigb/
+epoch=78-val_acc=0.7826-ebops=5333572.keras
+epoch=70-val_acc=0.7854-ebops=5432985.keras
+epoch=68-val_acc=0.7857-ebops=5517612.keras
+== runs/n64-hyb/
+epoch=966-val_acc=0.7964-ebops=387579.keras
+epoch=949-val_acc=0.7971-ebops=387646.keras
+epoch=953-val_acc=0.7988-ebops=389357.keras
+== runs/n64-l1e4/
+epoch=850-val_acc=0.7939-ebops=601232.keras
+epoch=707-val_acc=0.7940-ebops=685782.keras
+epoch=704-val_acc=0.7941-ebops=689642.keras
+== runs/n64-l2e5/
+epoch=425-val_acc=0.8000-ebops=1096588.keras
+epoch=414-val_acc=0.8002-ebops=1105663.keras
+epoch=423-val_acc=0.8002-ebops=1098360.keras
+== runs/n64-l3e4/
+epoch=28-val_acc=0.7453-ebops=8365326.keras
+epoch=27-val_acc=0.7541-ebops=8810821.keras
+== runs/n64-linf/
+epoch=38-val_acc=0.7755-ebops=3995342.keras
+epoch=44-val_acc=0.7769-ebops=4029008.keras
+epoch=55-val_acc=0.7798-ebops=4041852.keras
+== runs/n64-pid2/
+epoch=564-val_acc=0.8032-ebops=423650.0.keras
+epoch=622-val_acc=0.8034-ebops=426400.0.keras
+epoch=562-val_acc=0.8036-ebops=427680.0.keras
+== runs/n64-pid3/
+epoch=70-val_acc=0.8027-ebops=427212.0.keras
+epoch=138-val_acc=0.8031-ebops=430433.0.keras
+epoch=210-val_acc=0.8031-ebops=427696.0.keras
+== runs/n64-relu-3e5/
+epoch=637-val_acc=0.7967-ebops=384860.keras
+epoch=632-val_acc=0.7968-ebops=385102.keras
+epoch=635-val_acc=0.7968-ebops=384936.keras
+== runs/n64-relu-blk/
+epoch=16-val_acc=0.7416-ebops=10809537.keras
+epoch=15-val_acc=0.7425-ebops=10981844.keras
+epoch=14-val_acc=0.7428-ebops=11482760.keras
+== runs/n64-relu-blk2/
+== runs/n64-relu-dist/
+== runs/n64-relu-distb/
+epoch=991-val_acc=0.7690-ebops=345834.keras
+epoch=993-val_acc=0.7691-ebops=346074.keras
+epoch=838-val_acc=0.7695-ebops=385855.keras
+== runs/n64-relu/
+epoch=703-val_acc=0.8009-ebops=417249.keras
+epoch=702-val_acc=0.8014-ebops=417408.keras
+epoch=701-val_acc=0.8019-ebops=418677.keras
+== runs/n64-sat-notanh/
+epoch=632-val_acc=0.8024-ebops=978936.keras
+epoch=636-val_acc=0.8027-ebops=979026.keras
+epoch=496-val_acc=0.8041-ebops=1234646.keras
+== runs/n64-sat/
+epoch=707-val_acc=0.7985-ebops=967068.keras
+epoch=702-val_acc=0.7994-ebops=973225.keras
+epoch=566-val_acc=0.7998-ebops=1215704.keras
+== runs/n64-seed2/
+epoch=637-val_acc=0.7981-ebops=836347.keras
+epoch=630-val_acc=0.7983-ebops=839730.keras
+epoch=617-val_acc=0.7988-ebops=847014.keras
+== runs/n64-seed2c/
+epoch=624-val_acc=0.7985-ebops=402491.0.keras
+epoch=635-val_acc=0.7994-ebops=402781.0.keras
+epoch=975-val_acc=0.8002-ebops=408113.0.keras
+== runs/n64-sig/
+epoch=26-val_acc=0.7649-ebops=8409065.keras
+epoch=25-val_acc=0.7716-ebops=8517345.keras
+== runs/n64-sigb/
+epoch=68-val_acc=0.7862-ebops=5207086.keras
+epoch=66-val_acc=0.7863-ebops=5259520.keras
+epoch=63-val_acc=0.7865-ebops=5290499.keras
+== runs/n64-tbl/
+epoch=481-val_acc=0.8010-ebops=975146.keras
+epoch=484-val_acc=0.8013-ebops=975439.keras
+epoch=141-val_acc=0.8018-ebops=3481070.keras
+== runs/n64-wl1/
+epoch=140-val_acc=0.7981-ebops=3426830.keras
+epoch=139-val_acc=0.7985-ebops=3448000.keras
+epoch=137-val_acc=0.7987-ebops=3492801.keras
+== runs/n64-wl1b/
+epoch=417-val_acc=0.7947-ebops=942375.keras
+epoch=411-val_acc=0.7953-ebops=944172.keras
+epoch=407-val_acc=0.7961-ebops=949567.keras
+== runs/n64-wv10/
+epoch=693-val_acc=0.8029-ebops=385065.keras
+epoch=271-val_acc=0.8032-ebops=412711.keras
+epoch=67-val_acc=0.8035-ebops=415173.keras
+== runs/n64-wv30/
+epoch=208-val_acc=0.8029-ebops=412887.keras
+epoch=205-val_acc=0.8030-ebops=413158.keras
+epoch=66-val_acc=0.8034-ebops=417186.keras
+== runs/n64-wvb/
+epoch=64-val_acc=0.8015-ebops=367180.keras
+epoch=196-val_acc=0.8018-ebops=369105.keras
+epoch=63-val_acc=0.8019-ebops=370139.keras
+== runs/n64/
+epoch=92-val_acc=0.8059-ebops=9611387.keras
+epoch=91-val_acc=0.8080-ebops=9675859.keras
+epoch=64-val_acc=0.8098-ebops=11628447.keras
+== runs/qat-150-kt-g1.6-16b-max/
+epoch=168-val_acc=0.7580-ebops=848250.keras
+epoch=121-val_acc=0.7615-ebops=1015781.keras
+epoch=120-val_acc=0.7620-ebops=1055765.keras
+== runs/qat-150-kt-g1.6-8b-max-mask/
+epoch=122-val_acc=0.7428-ebops=1129988.keras
+epoch=16-val_acc=0.7436-ebops=5956688.keras
+epoch=10-val_acc=0.7494-ebops=8487582.keras
+== runs/qat-150-kt-g1.6-8b-max/
+epoch=135-val_acc=0.7601-ebops=1069413.keras
+epoch=129-val_acc=0.7612-ebops=1070671.keras
+epoch=124-val_acc=0.7630-ebops=1083019.keras
+== runs/qat-150-kt-g1.6-8b-mean/
+epoch=140-val_acc=0.7580-ebops=896024.keras
+epoch=139-val_acc=0.7590-ebops=896360.keras
+epoch=134-val_acc=0.7609-ebops=911540.keras
+== runs/qat-150-kt-g3.2-8b-max/
+epoch=128-val_acc=0.7503-ebops=1024752.keras
+epoch=113-val_acc=0.7524-ebops=1179015.keras
+epoch=69-val_acc=0.7546-ebops=1845434.keras
+== runs/qat-150-kt-max/
+epoch=125-val_acc=0.7626-ebops=1023237.keras
+epoch=115-val_acc=0.7644-ebops=1048134.keras
+epoch=116-val_acc=0.7645-ebops=1071356.keras
+== runs/qat-beta0/
+epoch=920-val_acc=0.8125-ebops=28781552.keras
+epoch=993-val_acc=0.8125-ebops=29001850.keras
+epoch=992-val_acc=0.8127-ebops=29012493.keras
+== runs/qat-beta001/
+epoch=534-val_acc=0.8071-ebops=5047871.keras
+epoch=487-val_acc=0.8075-ebops=5292540.keras
+epoch=420-val_acc=0.8077-ebops=5862521.keras
+== runs/qat-bn-tanh-16b/
+epoch=353-val_acc=0.8082-ebops=5840386.keras
+epoch=283-val_acc=0.8106-ebops=6855302.keras
+epoch=281-val_acc=0.8107-ebops=6884527.keras
+== runs/qat-bn-tanh-b01/
+epoch=212-val_acc=0.7972-ebops=2601940.keras
+epoch=140-val_acc=0.8019-ebops=3323526.keras
+epoch=130-val_acc=0.8029-ebops=3397169.keras
+== runs/qat-bn-tanh-b1-nomask/
+epoch=140-val_acc=0.7400-ebops=1728208.keras
+epoch=130-val_acc=0.7427-ebops=1784885.keras
+epoch=5-val_acc=0.7582-ebops=19985928.keras
+== runs/qat-bn-tanh-b1/
+epoch=87-val_acc=0.7587-ebops=1212674.keras
+epoch=59-val_acc=0.7603-ebops=1695068.keras
+epoch=60-val_acc=0.7739-ebops=1705588.keras
+== runs/qat-bn-tanh-mean/
+epoch=424-val_acc=0.8103-ebops=4867581.keras
+epoch=344-val_acc=0.8107-ebops=5617394.keras
+epoch=283-val_acc=0.8123-ebops=6470982.keras
+== runs/qat-bn-tanh/
+epoch=424-val_acc=0.8101-ebops=5004958.keras
+epoch=352-val_acc=0.8105-ebops=5693790.keras
+epoch=207-val_acc=0.8108-ebops=7900252.keras
+== runs/qat-satsym/
+epoch=567-val_acc=0.8050-ebops=5708089.keras
+epoch=563-val_acc=0.8051-ebops=5731626.keras
+epoch=550-val_acc=0.8054-ebops=5897559.keras
+== runs/satsym-fixed/
+epoch=698-val_acc=0.8067-ebops=1492585.keras
+epoch=691-val_acc=0.8088-ebops=1525324.keras
+epoch=636-val_acc=0.8116-ebops=1694973.keras
+== runs/slr-cap/
+== runs/slr-champ/
+epoch=977-val_acc=0.7927-ebops=580504.0.keras
+epoch=970-val_acc=0.7936-ebops=581766.0.keras
+epoch=686-val_acc=0.7940-ebops=629913.0.keras
+== runs/slr-rich/
+epoch=136-val_acc=0.8024-ebops=777945.0.keras
+epoch=273-val_acc=0.8024-ebops=729411.0.keras
+epoch=10-val_acc=0.8030-ebops=1185446.0.keras
+== runs/slr-rich2/
+epoch=141-val_acc=0.8034-ebops=795204.0.keras
+epoch=135-val_acc=0.8037-ebops=803432.0.keras
+epoch=139-val_acc=0.8046-ebops=807785.0.keras
+== runs/slr-room/
+epoch=833-val_acc=0.7871-ebops=511289.0.keras
+epoch=831-val_acc=0.7893-ebops=513261.0.keras
+epoch=764-val_acc=0.7904-ebops=545212.0.keras
+== runs/twostage-n64/
+== runs/twostage2-n64/
+epoch=140-val_acc=0.8046-ebops=3861425.keras
+epoch=136-val_acc=0.8047-ebops=3964148.keras
+epoch=7-val_acc=0.8048-ebops=48319140.keras
+== runs/twostage2c-n64/
+epoch=209-val_acc=0.8018-ebops=499548.0.keras
+epoch=198-val_acc=0.8020-ebops=526911.0.keras
+epoch=196-val_acc=0.8021-ebops=528030.0.keras
+== runs/vu-cap/
+epoch=846-val_acc=0.8040-ebops=1761184.0.keras
+epoch=779-val_acc=0.8041-ebops=1830428.0.keras
+epoch=774-val_acc=0.8044-ebops=1843451.0.keras
+== runs/vu-long/
+epoch=849-val_acc=0.8070-ebops=1451326.keras
+epoch=853-val_acc=0.8072-ebops=1491009.keras
+epoch=773-val_acc=0.8077-ebops=1536867.keras
+== runs/vu-mid/
+epoch=64-val_acc=0.7838-ebops=5057992.0.keras
+epoch=70-val_acc=0.7838-ebops=4903820.0.keras
+epoch=62-val_acc=0.7844-ebops=5082329.0.keras
+== runs/vu-paper/
+epoch=993-val_acc=0.7815-ebops=1355136.0.keras
+epoch=990-val_acc=0.7975-ebops=1356808.0.keras
