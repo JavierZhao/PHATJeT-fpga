@@ -219,7 +219,13 @@ ships as ConfigMap `zz-phatjet-src`, which matched this repo's code on
 | `runs/<run>/` | `train.log`, `run_config.json`, `qat_hist.json`, `pareto/` (193 runs) |
 | `hw/<tag>/` | traces: `hw_results.json`, RTL (`verilog_*/` with `build_vivado_prj.tcl`), logs (73 dirs, 3.7 GB) |
 | `frozen/` | 62 checkpoints copied out of `pareto/`. **`ParetoFront` deletes dominated checkpoints**, so freeze anything you quote (D171). The ep152 0.8101 checkpoint was lost this way; its RTL survives in `hw/trace101/`. |
-| `teachers/`, `aaron/` | float teachers; Aaron's shared files |
+| `teachers/`, `aaron/` | float teachers; Aaron's shared files, including his raw `jets_128x3.npz` (the source of the `aaron_*` stores) |
+
+**Data is not distributed with this repo; use the PVC copies.** Set `PJ_DATA`
+to the file the source run used (its `run_config.json` records it). For the
+record line that is `/data/phatjet-fpga/jets_128x3_aaron_ourunits_kt.npz`.
+Trace-only jobs can run with `PJ_DATA=""` and still give LUT/latency, but
+without data they skip accuracy and both bit-exactness checks.
 
 ## 7. Repository layout
 
